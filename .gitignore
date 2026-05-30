@@ -16,3 +16,9 @@ backend/target/
 
 # logs
 *.log
+
+# Local Netlify folder
+.netlify
+
+# personal files — not part of project
+Food/
