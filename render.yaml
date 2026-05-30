@@ -1,0 +1,30 @@
+# Render Blueprint — backend web service (Docker). Free plan, no card.
+# Spins down when idle; cron-job.org pings /api/health every 5 min to keep warm.
+services:
+  - type: web
+    name: protein-kitchen-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        sync: false   # jdbc:postgresql://<project>.pooler.supabase.com:6543/postgres?sslmode=require
+      - key: SPRING_DATASOURCE_USERNAME
+        sync: false   # postgres.<project-ref>
+      - key: SPRING_DATASOURCE_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: VAPID_PUBLIC_KEY
+        sync: false
+      - key: VAPID_PRIVATE_KEY
+        sync: false
+      - key: VAPID_SUBJECT
+        value: mailto:admin@proteinkitchen.app
+      - key: FRONTEND_ORIGIN
+        sync: false   # https://<your-site>.netlify.app,http://localhost:5173
