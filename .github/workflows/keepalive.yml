@@ -1,0 +1,25 @@
+name: keep-alive
+
+# Pings the Render free web service so it does not spin down after 15 min idle.
+# Render free instances sleep when idle (~50s cold start on next request);
+# this hits /api/health on a schedule to keep it warm.
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # every 10 minutes (GitHub may delay/batch under load)
+  workflow_dispatch: {} # allow manual trigger
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping health endpoint
+        run: |
+          for i in 1 2 3; do
+            code=$(curl -s -m 60 -o /dev/null -w "%{http_code}" https://protein-kitchen-api.onrender.com/api/health || echo 000)
+            echo "attempt $i -> HTTP $code"
+            if [ "$code" = "200" ]; then exit 0; fi
+            sleep 20
+          done
+          echo "health check failed after retries"
+          exit 1
