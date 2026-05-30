@@ -5,9 +5,9 @@ import java.time.Instant;
 import java.util.UUID;
 
 @Entity
-@Table(name = "users", indexes = {
-        @Index(name = "idx_users_google_sub", columnList = "googleSub", unique = true),
-        @Index(name = "idx_users_email", columnList = "email")
+@Table(name = "pk_users", indexes = {
+        @Index(name = "idx_pk_users_google_sub", columnList = "googleSub", unique = true),
+        @Index(name = "idx_pk_users_email", columnList = "email")
 })
 public class User {
 

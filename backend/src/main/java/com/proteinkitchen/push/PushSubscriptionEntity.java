@@ -5,8 +5,8 @@ import java.time.Instant;
 import java.util.UUID;
 
 @Entity
-@Table(name = "push_subscriptions", indexes = {
-        @Index(name = "idx_push_user", columnList = "userId")
+@Table(name = "pk_push_subscriptions", indexes = {
+        @Index(name = "idx_pk_push_user", columnList = "userId")
 })
 public class PushSubscriptionEntity {
 

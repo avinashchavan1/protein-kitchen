@@ -12,7 +12,7 @@ import java.util.UUID;
  * persists to localStorage) as a jsonb blob. Full-document sync — read/replace.
  */
 @Entity
-@Table(name = "user_state")
+@Table(name = "pk_user_state")
 public class UserState {
 
     @Id
