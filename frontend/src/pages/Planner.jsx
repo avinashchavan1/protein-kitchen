@@ -4,7 +4,7 @@ import { useStore, dayTotals, streak } from '../store/store.jsx';
 import { useNav, getRecipe } from '../nav.jsx';
 import { PK_DATA } from '../data/data.js';
 import { PKLib } from '../lib/lib.js';
-import { Icon, Thumb, Sheet } from '../components/ui.jsx';
+import { Icon, Thumb, Sheet, PullToRefresh } from '../components/ui.jsx';
 
 const DOW = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
@@ -42,7 +42,7 @@ export function Planner() {
         <button className="pk-press" onClick={sendWeekToGrocery} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12.5, fontWeight: 800, color: '#fff', background: 'var(--saffron)', padding: '9px 13px', borderRadius: 12, whiteSpace: 'nowrap', flex: '0 0 auto' }}><Icon name="cart" size={15} stroke="#fff" />Send week</button>
       </div>
 
-      <div className="pk-scroll" style={{ flex: 1, padding: '0 16px 16px' }}>
+      <PullToRefresh onRefresh={nav.refresh} style={{ flex: 1, padding: '0 16px 16px' }}>
         {/* streak + history */}
         <div style={{ background: 'var(--card)', borderRadius: 18, padding: 16, boxShadow: 'var(--shadow)', marginBottom: 18 }}>
           <div style={{ display: 'flex', gap: 20, marginBottom: 14 }}>
@@ -92,7 +92,7 @@ export function Planner() {
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
                     {ids.map(id => { const r = getRecipe(id); if (!r) return null; return (
                       <div key={id} style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
-                        <Thumb cat={r.category} style={{ width: 30, height: 30, borderRadius: 9, flex: '0 0 auto' }} />
+                        <Thumb cat={r.category} src={r.image} alt={r.title} style={{ width: 30, height: 30, borderRadius: 9, flex: '0 0 auto' }} />
                         <span className="pk-press" onClick={() => nav.push({ name: 'detail', recipeId: id })} style={{ flex: 1, fontSize: 13, fontWeight: 600, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', cursor: 'pointer' }}>{r.title}</span>
                         <span className="num" style={{ fontSize: 13, color: 'var(--basil)' }}>{r.proteinPerServing}g</span>
                         <button className="pk-press" onClick={() => dispatch({ type: 'PLAN_TOGGLE', date: d, recipeId: id })} aria-label="Remove" style={{ width: 24, height: 24, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Icon name="x" size={14} stroke="var(--ink-3)" /></button>
@@ -104,7 +104,7 @@ export function Planner() {
             );
           })}
         </div>
-      </div>
+      </PullToRefresh>
 
       <PlanPicker open={!!pickFor} date={pickFor} onClose={() => setPickFor(null)} />
     </div>
@@ -127,7 +127,7 @@ function PlanPicker({ open, date, onClose }) {
         const on = planned.includes(r.id);
         return (
           <div key={r.id} style={{ display: 'flex', alignItems: 'center', gap: 11, padding: '9px 0', borderBottom: '1px solid var(--line)' }}>
-            <Thumb cat={r.category} style={{ width: 42, height: 42, borderRadius: 12, flex: '0 0 auto' }} />
+            <Thumb cat={r.category} src={r.image} alt={r.title} style={{ width: 42, height: 42, borderRadius: 12, flex: '0 0 auto' }} />
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{ fontSize: 13.5, fontWeight: 600 }}>{r.title}</div>
               <div style={{ fontSize: 11, color: 'var(--ink-3)', fontWeight: 600 }}>{r.proteinPerServing}g · {r.timeMinutes} min</div>

@@ -39,6 +39,30 @@ export function useCloudSync(state, dispatch, user) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [active]);
 
+  // manual pull — used by pull-to-refresh. Re-fetches cloud doc + checks for a
+  // new app build (service worker update). Safe to call when signed out.
+  const stateRef = React.useRef(state);
+  stateRef.current = state;
+  const refresh = React.useCallback(async () => {
+    try {
+      const reg = navigator.serviceWorker && await navigator.serviceWorker.getRegistration();
+      if (reg) reg.update();
+    } catch (_) {}
+    if (!active) return;
+    try {
+      const out = await api('/api/sync');
+      if (isEmptyDoc(out.data)) {
+        const payload = pick(stateRef.current);
+        lastSentRef.current = JSON.stringify(payload);
+        await api('/api/sync', { method: 'PUT', body: payload });
+      } else {
+        lastSentRef.current = JSON.stringify(out.data);
+        dispatch({ type: 'IMPORT', state: out.data });
+      }
+    } catch (e) { console.warn('manual sync failed', e); }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [active]);
+
   // debounced push on state change
   React.useEffect(() => {
     if (!active || !pulledRef.current) return;
@@ -52,4 +76,6 @@ export function useCloudSync(state, dispatch, user) {
     }, 1200);
     return () => clearTimeout(timerRef.current);
   }, [active, state]);
+
+  return { refresh };
 }

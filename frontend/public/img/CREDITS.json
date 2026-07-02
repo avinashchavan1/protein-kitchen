@@ -1,0 +1,2952 @@
+[
+  {
+    "id": "recipe_air_fryer_chicken_tikka",
+    "kind": "recipe",
+    "term": "Chicken tikka skewers",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40815840",
+    "title": "File:Chicken Malai Tikka.JPG",
+    "artist": "Renupradhul",
+    "license": "CC BY-SA 4.0",
+    "bytes": 112389
+  },
+  {
+    "id": "recipe_paneer_bhurji",
+    "kind": "recipe",
+    "term": "Paneer bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=185836768",
+    "title": "File:Homemade Paneer Bhurji cooked in pan India.jpg",
+    "artist": "Status 401",
+    "license": "CC BY-SA 4.0",
+    "bytes": 457735
+  },
+  {
+    "id": "recipe_masoor_dal_tadka",
+    "kind": "recipe",
+    "term": "Dal fry bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40884622",
+    "title": "File:Rice, Palak Aloo, Stir Fried Beans & Potatoes, A Bowl Of Arhar Dal.jpg",
+    "artist": "Monali.mishra",
+    "license": "CC BY-SA 4.0",
+    "bytes": 145157
+  },
+  {
+    "id": "recipe_egg_bhurji",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_tandoori_fish_tikka",
+    "kind": "recipe",
+    "term": "Fish tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40927296",
+    "title": "File:Tandoori Fish tikka.jpg",
+    "artist": "Fatimahope",
+    "license": "CC BY-SA 4.0",
+    "bytes": 95354
+  },
+  {
+    "id": "recipe_chana_masala",
+    "kind": "recipe",
+    "term": "Chana masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=148797097",
+    "title": "File:Chana Masala - Mohammed - Spice Of Life 2024-05-27.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "bytes": 185673
+  },
+  {
+    "id": "recipe_yogurt_raita_bowl",
+    "kind": "recipe",
+    "term": "Raita",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=7610030",
+    "title": "File:Raita with cucumber and mint.jpg",
+    "artist": "Elisabeth Nara at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "bytes": 20489
+  },
+  {
+    "id": "recipe_butter_chicken_lite",
+    "kind": "recipe",
+    "term": "Butter chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=3728308",
+    "title": "File:Chicken makhani.jpg",
+    "artist": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "bytes": 86361
+  },
+  {
+    "id": "recipe_palak_paneer",
+    "kind": "recipe",
+    "term": "Palak paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=102610555",
+    "title": "File:Palakpaneer Rayagada Odisha 0009.jpg",
+    "artist": "Lopanayak",
+    "license": "CC BY-SA 4.0",
+    "bytes": 244973
+  },
+  {
+    "id": "recipe_egg_curry",
+    "kind": "recipe",
+    "term": "Egg curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126093541",
+    "title": "File:Spicy Anda Curry.jpg",
+    "artist": "https://onlybestrecipes.com/egg-curry-recipeegg-curry-recipe/",
+    "license": "CC BY-SA 4.0",
+    "bytes": 159491
+  },
+  {
+    "id": "recipe_rajma",
+    "kind": "recipe",
+    "term": "Rajma masala curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40915147",
+    "title": "File:Brinjal rajma masala.JPG",
+    "artist": "Nithyasrm",
+    "license": "CC BY-SA 4.0",
+    "bytes": 133277
+  },
+  {
+    "id": "recipe_soya_chunk_curry",
+    "kind": "recipe",
+    "term": "Soya chunk curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40694277",
+    "title": "File:Nutrela Soya Chunks Curry.jpg",
+    "artist": "Rashmi Biswas",
+    "license": "CC BY-SA 4.0",
+    "bytes": 150791
+  },
+  {
+    "id": "recipe_grilled_fish_curry",
+    "kind": "recipe",
+    "term": "Fish curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=12057441",
+    "title": "File:Meen curry 2.JPG",
+    "artist": "Kalakki at Malayalam Wikipedia",
+    "license": "CC BY-SA 2.5",
+    "bytes": 220617
+  },
+  {
+    "id": "recipe_moong_dal_cheela",
+    "kind": "recipe",
+    "term": "Moong dal cheela",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103648872",
+    "title": "File:Moonglet chilla with curd and hot tea.jpg",
+    "artist": "RekhaY07",
+    "license": "CC BY-SA 4.0",
+    "bytes": 509635
+  },
+  {
+    "id": "chicken_breast",
+    "kind": "ingredient",
+    "term": "Raw chicken breast",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=140639168",
+    "title": "File:Raw chicken slices.jpg",
+    "artist": "kakyusei",
+    "license": "CC0",
+    "bytes": 91412
+  },
+  {
+    "id": "paneer",
+    "kind": "ingredient",
+    "term": "Paneer Indian cheese",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=4140434",
+    "title": "File:Panir Paneer Indian cheese fresh.jpg",
+    "artist": "Sonja Pauen - Stanhopea",
+    "license": "CC BY 2.0 de",
+    "bytes": 252275
+  },
+  {
+    "id": "egg",
+    "kind": "ingredient",
+    "term": "Chicken eggs",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=21962258",
+    "title": "File:Chicken Egg without Eggshell 5859.jpg",
+    "artist": "Biswarup Ganguly",
+    "license": "CC BY 3.0",
+    "bytes": 34774
+  },
+  {
+    "id": "masoor_dal",
+    "kind": "ingredient",
+    "term": "Masoor lentil",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=91144742",
+    "title": "File:Masoor daal.jpg",
+    "artist": "Biohac",
+    "license": "CC BY-SA 4.0",
+    "bytes": 168980
+  },
+  {
+    "id": "moong_dal",
+    "kind": "ingredient",
+    "term": "Moong dal",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=30657699",
+    "title": "File:Vigna radiata MHNT.BOT.2009.17.4.jpg",
+    "artist": "Roger Culos",
+    "license": "CC BY-SA 3.0",
+    "bytes": 118493
+  },
+  {
+    "id": "fish_tilapia",
+    "kind": "ingredient",
+    "term": "Raw fish fillet",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=36222178",
+    "title": "File:100 gram fish fillet (115 grams raw weight).JPG",
+    "artist": "Hannahdownes",
+    "license": "CC BY-SA 4.0",
+    "bytes": 384187
+  },
+  {
+    "id": "tofu",
+    "kind": "ingredient",
+    "term": "Tofu block",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=16050307",
+    "title": "File:Milk tofu.JPG",
+    "artist": "Wwbread",
+    "license": "CC BY-SA 3.0",
+    "bytes": 144194
+  },
+  {
+    "id": "chickpeas",
+    "kind": "ingredient",
+    "term": "Cooked chickpeas",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=176165483",
+    "title": "File:Chickpeas - The Coconut Island 2025-10-05.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "bytes": 136187
+  },
+  {
+    "id": "greek_yogurt",
+    "kind": "ingredient",
+    "term": "Greek yogurt",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=33881331",
+    "title": "File:Labneh (5196911587).jpg",
+    "artist": "Leslie Seaton from Seattle, WA, USA",
+    "license": "CC BY 2.0",
+    "bytes": 126064
+  },
+  {
+    "id": "spinach",
+    "kind": "ingredient",
+    "term": "Fresh spinach leaves",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=163469246",
+    "title": "File:Fresh Spinach and Kale harvest at the farm.jpg",
+    "artist": "Anitah Pezz",
+    "license": "CC BY-SA 4.0",
+    "bytes": 295249
+  },
+  {
+    "id": "kidney_beans",
+    "kind": "ingredient",
+    "term": "Red kidney beans",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=133334277",
+    "title": "File:Red Speckled Kidney Beans.jpg",
+    "artist": "Sanjay Acharya",
+    "license": "CC BY-SA 4.0",
+    "bytes": 299088
+  },
+  {
+    "id": "soya_chunks",
+    "kind": "ingredient",
+    "term": "Soya chunks",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=350351",
+    "title": "File:Textured vegetable protein.jpg",
+    "artist": "No machine-readable author provided. Polyparadigm~commonswiki assumed (based on copyright claims).",
+    "license": "Public domain",
+    "bytes": 56558
+  },
+  {
+    "id": "besan",
+    "kind": "ingredient",
+    "term": "Gram flour besan",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40795902",
+    "title": "File:Gram flour Chilla (Besan ka Cheela).JPG",
+    "artist": "Mdsmds0",
+    "license": "CC BY-SA 4.0",
+    "bytes": 182421
+  },
+  {
+    "id": "onion",
+    "kind": "ingredient",
+    "term": "Onion",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=26689765",
+    "title": "File:Mixed onions.jpg",
+    "artist": "Colin",
+    "license": "CC BY-SA 3.0",
+    "bytes": 152023
+  },
+  {
+    "id": "tomato",
+    "kind": "ingredient",
+    "term": "Tomato",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=143779",
+    "title": "File:Tomato je.jpg",
+    "artist": "Softeis",
+    "license": "CC BY-SA 3.0",
+    "bytes": 92768
+  },
+  {
+    "id": "ginger_garlic",
+    "kind": "ingredient",
+    "term": "Ginger garlic paste",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=146586596",
+    "title": "File:Ginger Garlic Paste.jpg",
+    "artist": "Krunal7777",
+    "license": "CC BY-SA 4.0",
+    "bytes": 123937
+  },
+  {
+    "id": "green_chili",
+    "kind": "ingredient",
+    "term": "Green chili pepper",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=159331738",
+    "title": "File:Conjoined green chili pepper.jpg",
+    "artist": "Salil Kumar Mukherjee",
+    "license": "CC BY-SA 4.0",
+    "bytes": 91305
+  },
+  {
+    "id": "yogurt",
+    "kind": "ingredient",
+    "term": "Yogurt bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103915864",
+    "title": "File:Yogurt fruit bowl.jpg",
+    "artist": "Jumbocombo0811",
+    "license": "CC BY-SA 4.0",
+    "bytes": 375092
+  },
+  {
+    "id": "cream_lite",
+    "kind": "ingredient",
+    "term": "Pouring cream dairy",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=154152091",
+    "title": "File:Anderson Non-Dairy Coffee Creamer.jpg",
+    "artist": "TaurusEmerald",
+    "license": "CC BY-SA 4.0",
+    "bytes": 187723
+  },
+  {
+    "id": "ghee",
+    "kind": "ingredient",
+    "term": "Clarified butter",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=5639258",
+    "title": "File:Butterschmalz-3.jpg",
+    "artist": "Rainer Z ...",
+    "license": "CC BY-SA 3.0",
+    "bytes": 135637
+  },
+  {
+    "id": "mustard_oil",
+    "kind": "ingredient",
+    "term": "Mustard oil bottle",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=171762140",
+    "title": "File:Mustard Oil MoteNyinSei.jpg",
+    "artist": "SarKaLay စာကလေး",
+    "license": "CC BY-SA 4.0",
+    "bytes": 244455
+  },
+  {
+    "id": "garam_masala",
+    "kind": "ingredient",
+    "term": "Garam masala powder",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126320990",
+    "title": "File:Garam Masala 1.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 370497
+  },
+  {
+    "id": "turmeric",
+    "kind": "ingredient",
+    "term": "Turmeric powder bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=97084161",
+    "title": "File:Turmeric Powder Spelled Out.jpg",
+    "artist": "formulatehealth",
+    "license": "CC BY 2.0",
+    "bytes": 84428
+  },
+  {
+    "id": "cumin",
+    "kind": "ingredient",
+    "term": "Cumin seeds",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=63732537",
+    "title": "File:Seeds of Cumin.jpg",
+    "artist": "Sanjay Acharya",
+    "license": "CC BY-SA 4.0",
+    "bytes": 188466
+  },
+  {
+    "id": "red_chili_powder",
+    "kind": "ingredient",
+    "term": "Chili powder",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1151147",
+    "title": "File:BolivianChilePowder2.JPG",
+    "artist": "User JoeCarrasco on en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "bytes": 42595
+  },
+  {
+    "id": "coriander",
+    "kind": "ingredient",
+    "term": "Coriander leaves",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=56084588",
+    "title": "File:Coriander Leaves.jpg",
+    "artist": "Rupeshm364",
+    "license": "CC BY-SA 4.0",
+    "bytes": 275774
+  },
+  {
+    "id": "lemon",
+    "kind": "ingredient",
+    "term": "Lemon fruit",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=59992",
+    "title": "File:Lemon.jpg",
+    "artist": "André Karwath aka Aka",
+    "license": "CC BY-SA 2.5",
+    "bytes": 118247
+  },
+  {
+    "id": "recipe_tofu_tikka_masala",
+    "kind": "recipe",
+    "term": "Mapo tofu",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=17351480",
+    "title": "File:Billyfoodmabodofu3.jpg",
+    "artist": "Archon6812",
+    "license": "CC BY-SA 3.0",
+    "bytes": 244880
+  },
+  {
+    "id": "recipe_home_chicken_curry",
+    "kind": "recipe",
+    "term": "Chicken curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=130971968",
+    "title": "File:Chicken Curry 9.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 299215
+  },
+  {
+    "id": "recipe_hariyali_chicken_kebab",
+    "kind": "recipe",
+    "term": "Green chicken tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40990947",
+    "title": "File:Chicken tikka with green mint chutney.jpg",
+    "artist": "Sagar U Shetty",
+    "license": "CC BY-SA 4.0",
+    "bytes": 131455
+  },
+  {
+    "id": "recipe_chicken_65",
+    "kind": "recipe",
+    "term": "Chicken 65",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=20194276",
+    "title": "File:Chicken 65 (Dish).jpg",
+    "artist": "Amiyashrivastava",
+    "license": "CC BY-SA 3.0",
+    "bytes": 150671
+  },
+  {
+    "id": "recipe_chicken_keema_matar",
+    "kind": "recipe",
+    "term": "Keema matar",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75915491",
+    "title": "File:Keema Matar (a dish from India).jpg",
+    "artist": "Cabeza2000",
+    "license": "CC BY-SA 4.0",
+    "bytes": 458853
+  },
+  {
+    "id": "recipe_chicken_biryani_lite",
+    "kind": "recipe",
+    "term": "Chicken dum biryani",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=131420377",
+    "title": "File:Chicken Dum Biryani 03.jpg",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "bytes": 231388
+  },
+  {
+    "id": "recipe_methi_chicken",
+    "kind": "recipe",
+    "term": "Methi chicken curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=87475030",
+    "title": "File:Chicken Curry (490198749).jpg",
+    "artist": "rovingI",
+    "license": "CC BY 2.0",
+    "bytes": 123523
+  },
+  {
+    "id": "recipe_chilli_chicken",
+    "kind": "recipe",
+    "term": "Chilli chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=127180925",
+    "title": "File:Chicken Chilli 1.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 238300
+  },
+  {
+    "id": "recipe_chicken_seekh_kebab",
+    "kind": "recipe",
+    "term": "Chicken seekh kebab",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40980427",
+    "title": "File:Indian Chicken Seekh Kebab.jpg",
+    "artist": "Ishitadsa",
+    "license": "CC BY-SA 4.0",
+    "bytes": 209085
+  },
+  {
+    "id": "recipe_grilled_chicken_salad",
+    "kind": "recipe",
+    "term": "Grilled chicken salad",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75420907",
+    "title": "File:Caesar Salad & Grilled Chicken (30548011308).jpg",
+    "artist": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+    "license": "CC BY 2.0",
+    "bytes": 255342
+  },
+  {
+    "id": "recipe_tandoori_chicken_leg",
+    "kind": "recipe",
+    "term": "Tandoori chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=46781509",
+    "title": "File:Tandoori chicken Indian.jpg",
+    "artist": "pelican",
+    "license": "CC BY-SA 2.0",
+    "bytes": 150808
+  },
+  {
+    "id": "recipe_chicken_stew",
+    "kind": "recipe",
+    "term": "Chicken stew",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=46540087",
+    "title": "File:Chicken stew (Turkey).jpg",
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "bytes": 187546
+  },
+  {
+    "id": "recipe_chicken_shorba",
+    "kind": "recipe",
+    "term": "Chicken soup Indian",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=87471927",
+    "title": "File:Browned garlic chicken soup (8020381476).jpg",
+    "artist": "Devika",
+    "license": "CC BY-SA 2.0",
+    "bytes": 127247
+  },
+  {
+    "id": "recipe_achari_chicken",
+    "kind": "recipe",
+    "term": "Achari chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40862786",
+    "title": "File:Achari Chicken.jpg",
+    "artist": "Monali.mishra",
+    "license": "CC BY-SA 4.0",
+    "bytes": 259247
+  },
+  {
+    "id": "recipe_mutton_curry",
+    "kind": "recipe",
+    "term": "Mutton curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=191330952",
+    "title": "File:Mutton Curry (44786).jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 3.0",
+    "bytes": 437617
+  },
+  {
+    "id": "recipe_mutton_keema_matar",
+    "kind": "recipe",
+    "term": "Keema curry minced",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75915491",
+    "title": "File:Keema Matar (a dish from India).jpg",
+    "artist": "Cabeza2000",
+    "license": "CC BY-SA 4.0",
+    "bytes": 458853
+  },
+  {
+    "id": "recipe_mutton_seekh_kebab",
+    "kind": "recipe",
+    "term": "Mutton seekh kebab",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40674849",
+    "title": "File:Mutton Seekh Kebabs.jpg",
+    "artist": "MOUMITAPAL12061989",
+    "license": "CC BY-SA 4.0",
+    "bytes": 56644
+  },
+  {
+    "id": "recipe_mutton_shorba",
+    "kind": "recipe",
+    "term": "Mutton soup",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=129016707",
+    "title": "File:Shanxian Mutton Soup in Beijing (20230224111441).jpg",
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "bytes": 218841
+  },
+  {
+    "id": "recipe_mustard_fish_curry",
+    "kind": "recipe",
+    "term": "Bengali fish curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=74449121",
+    "title": "File:Bengali fish curry with coriander leaves.jpg",
+    "artist": "Ferdous",
+    "license": "CC BY-SA 4.0",
+    "bytes": 332454
+  },
+  {
+    "id": "recipe_prawn_masala",
+    "kind": "recipe",
+    "term": "Prawn masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=93556036",
+    "title": "File:Prawns Masala Recipe.jpg",
+    "artist": "Quickspicerecipes",
+    "license": "CC BY-SA 4.0",
+    "bytes": 130086
+  },
+  {
+    "id": "recipe_prawn_coconut_curry",
+    "kind": "recipe",
+    "term": "Prawn coconut curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40932638",
+    "title": "File:Jumbo Prawn Malai Curry.jpg",
+    "artist": "Ayanpau",
+    "license": "CC BY-SA 4.0",
+    "bytes": 379791
+  },
+  {
+    "id": "recipe_amritsari_fish",
+    "kind": "recipe",
+    "term": "Fried fish Amritsari",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103171049",
+    "title": "File:Amritsari Fried Fish- Amritsar-Punjab IMG 04.jpg",
+    "artist": "Jhuma Datta",
+    "license": "CC BY-SA 4.0",
+    "bytes": 796653
+  },
+  {
+    "id": "recipe_surmai_tawa_fry",
+    "kind": "recipe",
+    "term": "Fish fry masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=140268875",
+    "title": "File:Masala fish fry by be hungry.jpg",
+    "artist": "Be Hungry Cooking",
+    "license": "CC BY-SA 4.0",
+    "bytes": 387618
+  },
+  {
+    "id": "recipe_prawn_stir_fry",
+    "kind": "recipe",
+    "term": "Prawn stir fry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=127270448",
+    "title": "File:King prawns fried rice, Stir Fry by CK.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "bytes": 177659
+  },
+  {
+    "id": "recipe_masala_omelette",
+    "kind": "recipe",
+    "term": "Masala omelette",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=39460278",
+    "title": "File:Indian Omelette Odisha.jpg",
+    "artist": "Saileshpat",
+    "license": "CC BY-SA 4.0",
+    "bytes": 140459
+  },
+  {
+    "id": "recipe_egg_white_omelette",
+    "kind": "recipe",
+    "term": "Omelette eggs",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=127868822",
+    "title": "File:Omelette with Dal Bhat Tarkari.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 294382
+  },
+  {
+    "id": "recipe_egg_paratha",
+    "kind": "recipe",
+    "term": "Egg paratha",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40934639",
+    "title": "File:Egg tadka and paratha.jpg",
+    "artist": "Sarbani89",
+    "license": "CC BY-SA 4.0",
+    "bytes": 63812
+  },
+  {
+    "id": "recipe_boiled_egg_chaat",
+    "kind": "recipe",
+    "term": "Egg salad",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=60117942",
+    "title": "File:Egg salad 01.jpg",
+    "artist": "Mushki Brichta",
+    "license": "CC BY-SA 4.0",
+    "bytes": 77117
+  },
+  {
+    "id": "recipe_egg_white_bhurji",
+    "kind": "recipe",
+    "term": "Scrambled eggs",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126449046",
+    "title": "File:Scrambled eggs with basil.jpg",
+    "artist": "OmegaFallon",
+    "license": "CC BY 4.0",
+    "bytes": 199768
+  },
+  {
+    "id": "recipe_indian_shakshuka",
+    "kind": "recipe",
+    "term": "Shakshuka eggs tomato",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=92677142",
+    "title": "File:Shakshuka eggs for breakfast.jpg",
+    "artist": "FranHogan",
+    "license": "CC BY-SA 4.0",
+    "bytes": 218262
+  },
+  {
+    "id": "recipe_paneer_tikka",
+    "kind": "recipe",
+    "term": "Paneer tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=4122454",
+    "title": "File:Panir Tikka Indian cheese grilled.jpg",
+    "artist": "Sonja Pauen -Stanhopea",
+    "license": "CC BY 2.0 de",
+    "bytes": 183044
+  },
+  {
+    "id": "recipe_paneer_butter_masala_lite",
+    "kind": "recipe",
+    "term": "Paneer butter masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=152164049",
+    "title": "File:Paneer butter masala 2.jpg",
+    "artist": "Gannu03",
+    "license": "CC BY-SA 4.0",
+    "bytes": 221844
+  },
+  {
+    "id": "recipe_matar_paneer",
+    "kind": "recipe",
+    "term": "Matar paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40795409",
+    "title": "File:Matar-Paneer.JPG",
+    "artist": "Mdsmds0",
+    "license": "CC BY-SA 4.0",
+    "bytes": 178740
+  },
+  {
+    "id": "recipe_chilli_paneer",
+    "kind": "recipe",
+    "term": "Chilli paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=74913129",
+    "title": "File:Chilly Paneer 01.jpg",
+    "artist": "Marajozkee",
+    "license": "CC BY-SA 4.0",
+    "bytes": 214046
+  },
+  {
+    "id": "recipe_kadai_paneer",
+    "kind": "recipe",
+    "term": "Kadai paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103384486",
+    "title": "File:Kadai paneer with garlic naan.jpg",
+    "artist": "YKanchan07",
+    "license": "CC BY-SA 4.0",
+    "bytes": 102684
+  },
+  {
+    "id": "recipe_paneer_paratha",
+    "kind": "recipe",
+    "term": "Paneer paratha",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=18036778",
+    "title": "File:Awadhi palak paneer paratha dahi.jpg",
+    "artist": "rovingl",
+    "license": "CC BY 2.0",
+    "bytes": 95370
+  },
+  {
+    "id": "recipe_shahi_paneer_lite",
+    "kind": "recipe",
+    "term": "Shahi paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40793159",
+    "title": "File:Shahi Paneer & Butter Naan.jpg",
+    "artist": "Shashank7200",
+    "license": "CC BY-SA 4.0",
+    "bytes": 128329
+  },
+  {
+    "id": "recipe_paneer_capsicum_stirfry",
+    "kind": "recipe",
+    "term": "Kadai paneer capsicum",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40919811",
+    "title": "File:Kadai Paneer Recipe.JPG",
+    "artist": "Saishalini7",
+    "license": "CC BY-SA 4.0",
+    "bytes": 326932
+  },
+  {
+    "id": "recipe_methi_paneer",
+    "kind": "recipe",
+    "term": "Methi paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=102124442",
+    "title": "File:Methi Paneer Malai.jpg",
+    "artist": "1Bongfoodie",
+    "license": "CC BY-SA 4.0",
+    "bytes": 244027
+  },
+  {
+    "id": "recipe_paneer_kathi_roll",
+    "kind": "recipe",
+    "term": "Paneer kathi roll",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103643427",
+    "title": "File:Paneer kathi roll homemade.jpg",
+    "artist": "Shafana jasmine",
+    "license": "CC BY-SA 4.0",
+    "bytes": 164889
+  },
+  {
+    "id": "recipe_paneer_salad_bowl",
+    "kind": "recipe",
+    "term": "Vegetable salad bowl healthy",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=61659943",
+    "title": "File:Healthy Lentil Salad (Unsplash).jpg",
+    "artist": "James Sutton jamessutton_photography",
+    "license": "CC0",
+    "bytes": 105007
+  },
+  {
+    "id": "recipe_tofu_bhurji",
+    "kind": "recipe",
+    "term": "Scrambled tofu",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=140534276",
+    "title": "File:Tofu Scrambler.jpg",
+    "artist": "Bart Everson",
+    "license": "CC BY 2.0",
+    "bytes": 222719
+  },
+  {
+    "id": "recipe_tofu_veg_stirfry",
+    "kind": "recipe",
+    "term": "Tofu vegetable stir fry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=77858938",
+    "title": "File:Stir-fry spinach with tofu - Golden white jade and Green Parrot (菠菜炒豆腐 - 金鑲白玉板，紅嘴綠鸚哥)(2).jpg",
+    "artist": "NeoBatfreak",
+    "license": "CC BY-SA 4.0",
+    "bytes": 139455
+  },
+  {
+    "id": "recipe_tofu_palak",
+    "kind": "recipe",
+    "term": "Palak tofu",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=145176664",
+    "title": "File:Chakra Palak Tofu.jpg",
+    "artist": "JIP",
+    "license": "CC BY-SA 4.0",
+    "bytes": 102049
+  },
+  {
+    "id": "recipe_tofu_kathi_roll",
+    "kind": "recipe",
+    "term": "Tofu wrap",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=53429218",
+    "title": "File:Tofu wrap.jpg",
+    "artist": "Christo",
+    "license": "CC BY-SA 4.0",
+    "bytes": 111492
+  },
+  {
+    "id": "recipe_soya_pulao",
+    "kind": "recipe",
+    "term": "Vegetable pulao rice",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40972825",
+    "title": "File:VEGETABLE PULAO ~ An Indian cuisine made from fried rice mixed with fried vegetables.jpg",
+    "artist": "Jagisnowjughead",
+    "license": "CC BY-SA 4.0",
+    "bytes": 228453
+  },
+  {
+    "id": "recipe_soya_chilli",
+    "kind": "recipe",
+    "term": "Chilli soya",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40859283",
+    "title": "File:Indian Soya chilli chap.jpg",
+    "artist": "SC(your tax Expert)",
+    "license": "CC BY-SA 4.0",
+    "bytes": 232507
+  },
+  {
+    "id": "recipe_dal_fry",
+    "kind": "recipe",
+    "term": "Dal fry bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40884622",
+    "title": "File:Rice, Palak Aloo, Stir Fried Beans & Potatoes, A Bowl Of Arhar Dal.jpg",
+    "artist": "Monali.mishra",
+    "license": "CC BY-SA 4.0",
+    "bytes": 145157
+  },
+  {
+    "id": "recipe_dal_makhani_lite",
+    "kind": "recipe",
+    "term": "Dal makhani",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=6206189",
+    "title": "File:Dal Makhani.jpg",
+    "artist": "Charles Haynes",
+    "license": "CC BY-SA 2.0",
+    "bytes": 113787
+  },
+  {
+    "id": "recipe_chana_dal_tadka",
+    "kind": "recipe",
+    "term": "Dal tadka lentil",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=26154288",
+    "title": "File:Tadka Daal (Indian lentil curry).jpg",
+    "artist": "rovingI",
+    "license": "CC BY 2.0",
+    "bytes": 103635
+  },
+  {
+    "id": "recipe_kala_chana_masala",
+    "kind": "recipe",
+    "term": "Kala chana curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40940699",
+    "title": "File:DRY KALA CHANA MASALA.jpg",
+    "artist": "Nikitamusaddi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 265186
+  },
+  {
+    "id": "recipe_lobia_masala",
+    "kind": "recipe",
+    "term": "Black eyed peas curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40955063",
+    "title": "File:Black eyed Peas Curry and Pulav.JPG",
+    "artist": "Namitakhaire",
+    "license": "CC BY-SA 4.0",
+    "bytes": 106071
+  },
+  {
+    "id": "recipe_moong_sprout_salad",
+    "kind": "recipe",
+    "term": "Sprout chaat",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40942005",
+    "title": "File:Sprout Chaat.jpg",
+    "artist": "Bingo2310",
+    "license": "CC BY-SA 4.0",
+    "bytes": 190066
+  },
+  {
+    "id": "recipe_moong_sprout_chaat",
+    "kind": "recipe",
+    "term": "Bean salad chaat",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40616653",
+    "title": "File:Chaat.JPG",
+    "artist": "Dr. Manavpreet Kaur",
+    "license": "CC BY-SA 4.0",
+    "bytes": 181547
+  },
+  {
+    "id": "recipe_green_moong_dal",
+    "kind": "recipe",
+    "term": "Green moong dal curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103552025",
+    "title": "File:Totapuri moong dal kosambari.jpg",
+    "artist": "Vidya pmysore",
+    "license": "CC BY-SA 4.0",
+    "bytes": 261714
+  },
+  {
+    "id": "recipe_mixed_dal",
+    "kind": "recipe",
+    "term": "Mixed lentil dal",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126078977",
+    "title": "File:Mixed dal with vegetables.jpg",
+    "artist": "Salil Kumar Mukherjee",
+    "license": "CC BY-SA 4.0",
+    "bytes": 211447
+  },
+  {
+    "id": "recipe_sambar",
+    "kind": "recipe",
+    "term": "Sambar idli",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103622862",
+    "title": "File:Idli Sambar-Noida-UP-SP004.jpg",
+    "artist": "Sutapa Pal",
+    "license": "CC BY-SA 4.0",
+    "bytes": 192997
+  },
+  {
+    "id": "recipe_urad_dal_tadka",
+    "kind": "recipe",
+    "term": "Dal bowl rice",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40884622",
+    "title": "File:Rice, Palak Aloo, Stir Fried Beans & Potatoes, A Bowl Of Arhar Dal.jpg",
+    "artist": "Monali.mishra",
+    "license": "CC BY-SA 4.0",
+    "bytes": 145157
+  },
+  {
+    "id": "recipe_chana_dal_lauki",
+    "kind": "recipe",
+    "term": "Bottle gourd curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=108061971",
+    "title": "File:Bottle Gourd Curry.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 187570
+  },
+  {
+    "id": "recipe_moong_khichdi",
+    "kind": "recipe",
+    "term": "Khichdi",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40940357",
+    "title": "File:Spicy Khichdi.JPG",
+    "artist": "Seena.ge",
+    "license": "CC BY-SA 4.0",
+    "bytes": 125592
+  },
+  {
+    "id": "recipe_sprouts_stir_fry",
+    "kind": "recipe",
+    "term": "Sprouts usal Maharashtra",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=102304999",
+    "title": "File:Mataki Bhel - Jogeshwari Misal, Pune - Maharashtra -DSC02834.jpg",
+    "artist": "Gorakshnath Khande",
+    "license": "CC BY-SA 4.0",
+    "bytes": 83495
+  },
+  {
+    "id": "recipe_besan_chilla",
+    "kind": "recipe",
+    "term": "Besan chilla",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40907452",
+    "title": "File:Chilla besan.JPG",
+    "artist": "Kamalsahansi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 202712
+  },
+  {
+    "id": "recipe_masala_oats",
+    "kind": "recipe",
+    "term": "Masala oats",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=185900452",
+    "title": "File:Homemade masala oats India.jpg",
+    "artist": "Status 401",
+    "license": "CC BY-SA 4.0",
+    "bytes": 447632
+  },
+  {
+    "id": "recipe_sattu_paratha",
+    "kind": "recipe",
+    "term": "Sattu paratha",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40894927",
+    "title": "File:Sattu Paratha.jpg",
+    "artist": "Samar Fatma",
+    "license": "CC BY-SA 4.0",
+    "bytes": 122871
+  },
+  {
+    "id": "recipe_sattu_sharbat",
+    "kind": "recipe",
+    "term": "Sattu drink",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=124481116",
+    "title": "File:Sattu Ghol.jpg",
+    "artist": "Magadhkingdom",
+    "license": "CC BY-SA 4.0",
+    "bytes": 38197
+  },
+  {
+    "id": "recipe_vermicelli_upma",
+    "kind": "recipe",
+    "term": "Vermicelli upma",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=157014063",
+    "title": "File:Traditional Vermicelli Upma (Semiya Upma) with Fresh Vegetables.jpg",
+    "artist": "Srujanabotcha",
+    "license": "CC BY-SA 4.0",
+    "bytes": 423646
+  },
+  {
+    "id": "recipe_poha_peanuts",
+    "kind": "recipe",
+    "term": "Poha",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=96076899",
+    "title": "File:Poha with tomato sause.jpg",
+    "artist": "Mrsagar105",
+    "license": "CC BY-SA 4.0",
+    "bytes": 228390
+  },
+  {
+    "id": "recipe_ragi_dosa",
+    "kind": "recipe",
+    "term": "Ragi dosa",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=82038345",
+    "title": "File:Ragi Dosa Mumbai.jpg",
+    "artist": "Pradeep717",
+    "license": "CC BY-SA 4.0",
+    "bytes": 243904
+  },
+  {
+    "id": "recipe_moong_dal_dosa",
+    "kind": "recipe",
+    "term": "Pesarattu dosa",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=16998436",
+    "title": "File:Pesarattu.jpg",
+    "artist": "Ryallabandi at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "bytes": 33154
+  },
+  {
+    "id": "recipe_chana_chaat",
+    "kind": "recipe",
+    "term": "Chana chaat",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40916716",
+    "title": "File:Delicious Aloo chana chaat.JPG",
+    "artist": "Nithyasrm",
+    "license": "CC BY-SA 4.0",
+    "bytes": 349202
+  },
+  {
+    "id": "recipe_hummus_bowl",
+    "kind": "recipe",
+    "term": "Hummus",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=101576399",
+    "title": "File:Homemade hummus and pita 03.jpg",
+    "artist": "Satdeep Gill",
+    "license": "CC BY-SA 4.0",
+    "bytes": 174351
+  },
+  {
+    "id": "recipe_chickpea_sundal",
+    "kind": "recipe",
+    "term": "Sundal chickpeas",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40983508",
+    "title": "File:Marina beach sundal.jpg",
+    "artist": "Cholena Nashan",
+    "license": "CC BY-SA 4.0",
+    "bytes": 374698
+  },
+  {
+    "id": "recipe_peanut_sundal",
+    "kind": "recipe",
+    "term": "Boiled peanuts",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=3023142",
+    "title": "File:Boiled big peanuts & normal peanuts, Katori City, Japan.jpg",
+    "artist": "katorisi",
+    "license": "CC BY 3.0",
+    "bytes": 175267
+  },
+  {
+    "id": "recipe_chia_pudding",
+    "kind": "recipe",
+    "term": "Chia pudding jar",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=162738634",
+    "title": "File:Banana chia pudding in a glass jar.jpg",
+    "artist": "পাপৰি বৰা",
+    "license": "CC BY-SA 4.0",
+    "bytes": 179381
+  },
+  {
+    "id": "recipe_overnight_oats_pb",
+    "kind": "recipe",
+    "term": "Overnight oats",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=847941",
+    "title": "File:Muesli.jpg",
+    "artist": "Original description was: I, VirtualSteve took this photograph on February 19, 2006.",
+    "license": "CC BY-SA 2.5",
+    "bytes": 234778
+  },
+  {
+    "id": "recipe_protein_smoothie",
+    "kind": "recipe",
+    "term": "Smoothie glass",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=163244235",
+    "title": "File:A glass of hyderabad smoothie.jpg",
+    "artist": "Queen Asali",
+    "license": "CC BY-SA 4.0",
+    "bytes": 237665
+  },
+  {
+    "id": "recipe_mushroom_masala",
+    "kind": "recipe",
+    "term": "Mushroom masala curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40789082",
+    "title": "File:Mushroom Tikka Masala by Preeti Tamilarasan.jpg",
+    "artist": "Preeti Tamilarasan",
+    "license": "CC BY-SA 4.0",
+    "bytes": 714933
+  },
+  {
+    "id": "recipe_capsicum_besan_sabzi",
+    "kind": "recipe",
+    "term": "Capsicum sabzi",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=114354045",
+    "title": "File:Paneer Capsicum Sabzi from India.jpg",
+    "artist": "Ravi Dwivedi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 302815
+  },
+  {
+    "id": "recipe_baingan_bharta",
+    "kind": "recipe",
+    "term": "Baingan bharta",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40958196",
+    "title": "File:Baingan Ka Bharta.JPG",
+    "artist": "Zeel Patel",
+    "license": "CC BY-SA 4.0",
+    "bytes": 178760
+  },
+  {
+    "id": "recipe_mixed_veg_korma",
+    "kind": "recipe",
+    "term": "Vegetable korma",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=141795548",
+    "title": "File:Vegetable Korma 03.jpg",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "bytes": 242533
+  },
+  {
+    "id": "recipe_rajma_salad",
+    "kind": "recipe",
+    "term": "Kidney bean salad",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=141121489",
+    "title": "File:Bean salad.jpg",
+    "artist": "PPD",
+    "license": "CC0",
+    "bytes": 225559
+  },
+  {
+    "id": "recipe_egg_salad",
+    "kind": "recipe",
+    "term": "Egg salad",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=60117942",
+    "title": "File:Egg salad 01.jpg",
+    "artist": "Mushki Brichta",
+    "license": "CC BY-SA 4.0",
+    "bytes": 77117
+  },
+  {
+    "id": "recipe_sprout_bhel",
+    "kind": "recipe",
+    "term": "Bhel puri",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=153048556",
+    "title": "File:Bhel puri chat, photographed in West Bengal, India, September 24, 2024.jpg",
+    "artist": "Billjones94",
+    "license": "CC0",
+    "bytes": 153116
+  },
+  {
+    "id": "recipe_hung_curd_dip",
+    "kind": "recipe",
+    "term": "Raita",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=7610030",
+    "title": "File:Raita with cucumber and mint.jpg",
+    "artist": "Elisabeth Nara at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "bytes": 20489
+  },
+  {
+    "id": "recipe_soya_cutlet",
+    "kind": "recipe",
+    "term": "Vegetable cutlet",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=177348797",
+    "title": "File:Vegetable Cutlet From India.jpg",
+    "artist": "Ntarch",
+    "license": "CC0",
+    "bytes": 181721
+  },
+  {
+    "id": "recipe_cheese_omelette",
+    "kind": "recipe",
+    "term": "Cheese omelette",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=135665562",
+    "title": "File:Cheese & Mushroom Omelette - The Bystander Cafe 2023-08-07.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "bytes": 188956
+  },
+  {
+    "id": "recipe_keema_paratha",
+    "kind": "recipe",
+    "term": "Keema paratha",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40789079",
+    "title": "File:Keema Paratha by Preeti Tamilarasan.jpg",
+    "artist": "Preeti Tamilarasan",
+    "license": "CC BY-SA 4.0",
+    "bytes": 824487
+  },
+  {
+    "id": "recipe_fish_cutlet",
+    "kind": "recipe",
+    "term": "Fish cutlet",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=101577583",
+    "title": "File:Fish cutlet kolkata west bengal IMG20210124195917.jpg",
+    "artist": "Indrani dey",
+    "license": "CC BY-SA 4.0",
+    "bytes": 169629
+  },
+  {
+    "id": "recipe_chicken_lettuce_wrap",
+    "kind": "recipe",
+    "term": "Lettuce wrap chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=82990140",
+    "title": "File:Slow Cooker Asian Chicken Lettuce Wraps (36167537862).jpg",
+    "artist": "A Healthier Michigan from Detroit, United States",
+    "license": "CC BY-SA 2.0",
+    "bytes": 112989
+  },
+  {
+    "id": "recipe_methi_thepla",
+    "kind": "recipe",
+    "term": "Thepla",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=150882476",
+    "title": "File:Thepla 2.jpg",
+    "artist": "Yakshitha",
+    "license": "CC BY-SA 4.0",
+    "bytes": 144739
+  },
+  {
+    "id": "recipe_dahi_chana_chaat",
+    "kind": "recipe",
+    "term": "Dahi chaat",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40957356",
+    "title": "File:Aloo Dahi Chaat.JPG",
+    "artist": "Aindrilachanda",
+    "license": "CC BY-SA 4.0",
+    "bytes": 166420
+  },
+  {
+    "id": "chicken_thigh",
+    "kind": "ingredient",
+    "term": "Raw chicken thigh",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=10216823",
+    "title": "File:Raw chicken thighs.jpg",
+    "artist": "gran",
+    "license": "CC BY 3.0",
+    "bytes": 96639
+  },
+  {
+    "id": "chicken_keema",
+    "kind": "ingredient",
+    "term": "Ground chicken meat",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=115038441",
+    "title": "File:Ground meat cutlet and deep-fried chicken with oil lunch box of NewDays.jpg",
+    "artist": "毒島みるく",
+    "license": "CC0",
+    "bytes": 168114
+  },
+  {
+    "id": "mutton",
+    "kind": "ingredient",
+    "term": "Raw goat meat",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=130185472",
+    "title": "File:Raw meat.png",
+    "artist": "Issac Gyamfi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 1120680
+  },
+  {
+    "id": "mutton_keema",
+    "kind": "ingredient",
+    "term": "Ground mutton mince",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=22221920",
+    "title": "File:4th October 2012 Shami Kebab.jpg",
+    "artist": "Murcotipton",
+    "license": "CC BY-SA 3.0",
+    "bytes": 189066
+  },
+  {
+    "id": "prawns",
+    "kind": "ingredient",
+    "term": "Raw prawns",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=107974552",
+    "title": "File:Prawn raw cleaned 2021b.jpg",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "bytes": 247384
+  },
+  {
+    "id": "fish_salmon",
+    "kind": "ingredient",
+    "term": "Raw salmon fillet",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=77589496",
+    "title": "File:Raw salmon fillets.jpg",
+    "artist": "FULVIO_TOGNON",
+    "license": "CC0",
+    "bytes": 220107
+  },
+  {
+    "id": "fish_surmai",
+    "kind": "ingredient",
+    "term": "Seer fish",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=184560850",
+    "title": "File:Seer fish (90288).jpg",
+    "artist": "Jeevitha VM",
+    "license": "CC BY-SA 4.0",
+    "bytes": 156626
+  },
+  {
+    "id": "egg_white",
+    "kind": "ingredient",
+    "term": "Egg white",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=21962258",
+    "title": "File:Chicken Egg without Eggshell 5859.jpg",
+    "artist": "Biswarup Ganguly",
+    "license": "CC BY 3.0",
+    "bytes": 34774
+  },
+  {
+    "id": "milk",
+    "kind": "ingredient",
+    "term": "Glass of milk",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=2326750",
+    "title": "File:Bowl milk glass.jpg",
+    "artist": "Manfred Heyde",
+    "license": "CC BY-SA 3.0",
+    "bytes": 79234
+  },
+  {
+    "id": "skim_milk",
+    "kind": "ingredient",
+    "term": "Milk glass",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=2326750",
+    "title": "File:Bowl milk glass.jpg",
+    "artist": "Manfred Heyde",
+    "license": "CC BY-SA 3.0",
+    "bytes": 79234
+  },
+  {
+    "id": "cheese",
+    "kind": "ingredient",
+    "term": "Cheese block",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40687528",
+    "title": "File:Parmesan cheese knife on block of cheese.jpg",
+    "artist": "Benoît Prieur",
+    "license": "CC0",
+    "bytes": 102577
+  },
+  {
+    "id": "toor_dal",
+    "kind": "ingredient",
+    "term": "Toor dal pigeon pea",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=189045937",
+    "title": "File:Pigeon pea pods in Raichur, Karnataka.jpg",
+    "artist": "Nanditha Gogate, WELL Labs",
+    "license": "CC BY-SA 4.0",
+    "bytes": 102947
+  },
+  {
+    "id": "chana_dal",
+    "kind": "ingredient",
+    "term": "Chana dal split",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126182896",
+    "title": "File:Chana Ko Dal.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 195626
+  },
+  {
+    "id": "urad_dal",
+    "kind": "ingredient",
+    "term": "Urad dal",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=3590757",
+    "title": "File:Black gram.jpg",
+    "artist": "Sanjay Acharya",
+    "license": "CC BY-SA 3.0",
+    "bytes": 266526
+  },
+  {
+    "id": "black_chana",
+    "kind": "ingredient",
+    "term": "Black chickpeas",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=159982475",
+    "title": "File:Black chickpeas in Village Market.jpg",
+    "artist": "S.Elaiyaraja",
+    "license": "CC BY-SA 4.0",
+    "bytes": 296172
+  },
+  {
+    "id": "lobia",
+    "kind": "ingredient",
+    "term": "Black eyed peas",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=18417691",
+    "title": "File:BlackEyedPeas.JPG",
+    "artist": "Toby Hudson",
+    "license": "CC BY-SA 3.0",
+    "bytes": 146437
+  },
+  {
+    "id": "green_peas",
+    "kind": "ingredient",
+    "term": "Green peas",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=19741949",
+    "title": "File:India - Varanasi green peas - 2714.jpg",
+    "artist": "Jorge Royan",
+    "license": "CC BY-SA 3.0",
+    "bytes": 238300
+  },
+  {
+    "id": "peanuts",
+    "kind": "ingredient",
+    "term": "Peanuts",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=100537017",
+    "title": "File:Peanuts (Arachis hypogaea) - in shell, shell cracked open, shelled, peeled.jpg",
+    "artist": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "bytes": 87711
+  },
+  {
+    "id": "peanut_butter",
+    "kind": "ingredient",
+    "term": "Peanut butter",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=12038012",
+    "title": "File:Peanut-Butter-Jelly-Sandwich.jpg",
+    "artist": "Evan-Amos",
+    "license": "Public domain",
+    "bytes": 100719
+  },
+  {
+    "id": "almonds",
+    "kind": "ingredient",
+    "term": "Almonds",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=100366844",
+    "title": "File:Almonds - in shell, shell cracked open, shelled, blanched.jpg",
+    "artist": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "bytes": 124669
+  },
+  {
+    "id": "cashew",
+    "kind": "ingredient",
+    "term": "Cashew nuts",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=154098991",
+    "title": "File:CASHEW NUTS.jpg",
+    "artist": "Ranjithkumar Murugesan",
+    "license": "CC0",
+    "bytes": 265867
+  },
+  {
+    "id": "sesame",
+    "kind": "ingredient",
+    "term": "Sesame seeds",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=2389127",
+    "title": "File:Sa white sesame seeds.jpg",
+    "artist": "Sanjay ach",
+    "license": "CC BY-SA 3.0",
+    "bytes": 161838
+  },
+  {
+    "id": "flaxseed",
+    "kind": "ingredient",
+    "term": "Flax seeds",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=17028461",
+    "title": "File:Linum usitatissimum qtl1.jpg",
+    "artist": "Quartl",
+    "license": "CC BY-SA 3.0",
+    "bytes": 79262
+  },
+  {
+    "id": "chia",
+    "kind": "ingredient",
+    "term": "Chia seeds",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=15245222",
+    "title": "File:Semillas de Chía.jpg",
+    "artist": "Magister Mathematicae",
+    "license": "CC BY-SA 3.0",
+    "bytes": 333539
+  },
+  {
+    "id": "oats",
+    "kind": "ingredient",
+    "term": "Rolled oats",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=7972524",
+    "title": "File:Rolled oats.jpg",
+    "artist": "en:user:Hankwang",
+    "license": "Public domain",
+    "bytes": 59625
+  },
+  {
+    "id": "quinoa",
+    "kind": "ingredient",
+    "term": "Quinoa grain",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=181113867",
+    "title": "File:Sirara (Quinoa),A Traditional Grain of Kullu(Himachal Pradesh),2.jpg",
+    "artist": "Rajani Gairshail",
+    "license": "CC BY-SA 4.0",
+    "bytes": 315188
+  },
+  {
+    "id": "brown_rice",
+    "kind": "ingredient",
+    "term": "Brown rice",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=142450365",
+    "title": "File:Brown Rice.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 259745
+  },
+  {
+    "id": "rice",
+    "kind": "ingredient",
+    "term": "Cooked white rice",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=119055907",
+    "title": "File:Cooked green rice and white rice.jpg",
+    "artist": "Chouk Khmer",
+    "license": "CC BY-SA 4.0",
+    "bytes": 139224
+  },
+  {
+    "id": "ragi",
+    "kind": "ingredient",
+    "term": "Finger millet flour",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=136392192",
+    "title": "File:Ragi millet flour.jpg",
+    "artist": "Medhi jyoti",
+    "license": "CC BY-SA 4.0",
+    "bytes": 176841
+  },
+  {
+    "id": "poha",
+    "kind": "ingredient",
+    "term": "Flattened rice poha",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=17010523",
+    "title": "File:Poha.jpg",
+    "artist": "Sanjay Acharya, aka Sanjay ach at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "bytes": 121447
+  },
+  {
+    "id": "vermicelli",
+    "kind": "ingredient",
+    "term": "Vermicelli noodles",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=46474981",
+    "title": "File:Whole-grain rice vermicelli noodles (Thai).jpg",
+    "artist": "Susan Slater",
+    "license": "CC BY-SA 4.0",
+    "bytes": 267865
+  },
+  {
+    "id": "sattu",
+    "kind": "ingredient",
+    "term": "Roasted gram flour",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40894927",
+    "title": "File:Sattu Paratha.jpg",
+    "artist": "Samar Fatma",
+    "license": "CC BY-SA 4.0",
+    "bytes": 122871
+  },
+  {
+    "id": "atta",
+    "kind": "ingredient",
+    "term": "Wheat flour",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=35717058",
+    "title": "File:All-Purpose Flour (4107895947).jpg",
+    "artist": "Veganbaking.net from USA",
+    "license": "CC BY-SA 2.0",
+    "bytes": 72213
+  },
+  {
+    "id": "cabbage",
+    "kind": "ingredient",
+    "term": "Cabbage",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=31365993",
+    "title": "File:Chou cabus blanc 01.jpg",
+    "artist": "Coyau",
+    "license": "CC BY-SA 3.0",
+    "bytes": 74704
+  },
+  {
+    "id": "capsicum",
+    "kind": "ingredient",
+    "term": "Bell pepper capsicum",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=17053319",
+    "title": "File:Baby Bell pepper Capsicum annuum 3.jpg",
+    "artist": "W.Rebel",
+    "license": "CC BY-SA 3.0",
+    "bytes": 75548
+  },
+  {
+    "id": "carrot",
+    "kind": "ingredient",
+    "term": "Carrot",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=545126",
+    "title": "File:Carrots of many colors.jpg",
+    "artist": "Stephen Ausmus",
+    "license": "Public domain",
+    "bytes": 665643
+  },
+  {
+    "id": "french_beans",
+    "kind": "ingredient",
+    "term": "Green beans",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=79974839",
+    "title": "File:Four Different Varieties of Green Beans (Phaseolus vulgaris).jpg",
+    "artist": "Christopher Franz",
+    "license": "CC BY-SA 4.0",
+    "bytes": 116861
+  },
+  {
+    "id": "lauki",
+    "kind": "ingredient",
+    "term": "Bottle gourd",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=30135778",
+    "title": "File:Lagenaria siceraria var peregrina MHNT.BOT.2013.22.54.jpg",
+    "artist": "Roger Culos",
+    "license": "CC BY-SA 3.0",
+    "bytes": 51232
+  },
+  {
+    "id": "bhindi",
+    "kind": "ingredient",
+    "term": "Okra",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=151232467",
+    "title": "File:Quiabo.jpg",
+    "artist": "ArionStar",
+    "license": "CC0",
+    "bytes": 270560
+  },
+  {
+    "id": "brinjal",
+    "kind": "ingredient",
+    "term": "Eggplant brinjal",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=20825279",
+    "title": "File:Solanum melongena 24 08 2012 (1).JPG",
+    "artist": "Joydeep",
+    "license": "CC BY-SA 3.0",
+    "bytes": 229660
+  },
+  {
+    "id": "mushroom",
+    "kind": "ingredient",
+    "term": "Button mushrooms",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=46446864",
+    "title": "File:2016-01 Agaricus bisporus 06.jpg",
+    "artist": "0x010C",
+    "license": "CC BY-SA 4.0",
+    "bytes": 82285
+  },
+  {
+    "id": "sweet_corn",
+    "kind": "ingredient",
+    "term": "Sweet corn",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=158832434",
+    "title": "File:Sweet corn 2.jpg",
+    "artist": "পাপৰি বৰা",
+    "license": "CC BY-SA 4.0",
+    "bytes": 266420
+  },
+  {
+    "id": "methi",
+    "kind": "ingredient",
+    "term": "Fenugreek leaves",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=88408809",
+    "title": "File:Washed fenugreek leaves for cooking methi-chadachadi.jpg",
+    "artist": "Subhashish Panigrahi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 315124
+  },
+  {
+    "id": "mint",
+    "kind": "ingredient",
+    "term": "Mint leaves",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=102444457",
+    "title": "File:Mint leaves (Mentha spicata).jpg",
+    "artist": "Commonists",
+    "license": "CC BY-SA 4.0",
+    "bytes": 177847
+  },
+  {
+    "id": "curry_leaves",
+    "kind": "ingredient",
+    "term": "Curry leaves",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=187130931",
+    "title": "File:20260317 Murraya koenigii 01.jpg",
+    "artist": "Flocci Nivis",
+    "license": "CC BY 4.0",
+    "bytes": 191714
+  },
+  {
+    "id": "coconut",
+    "kind": "ingredient",
+    "term": "Coconut fruit",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=114753360",
+    "title": "File:Coconuts - single and cracked open.jpg",
+    "artist": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "bytes": 123338
+  },
+  {
+    "id": "coconut_milk",
+    "kind": "ingredient",
+    "term": "Coconut milk",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=2104702",
+    "title": "File:Coconut milk from can01.JPG",
+    "artist": "Meursault2004",
+    "license": "CC BY-SA 3.0",
+    "bytes": 213048
+  },
+  {
+    "id": "potato",
+    "kind": "ingredient",
+    "term": "Patatas potato",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=59315097",
+    "title": "File:Solanum tuberosum Red Scarlett20170523 7825.jpg",
+    "artist": "Bff",
+    "license": "CC BY-SA 4.0",
+    "bytes": 325389
+  },
+  {
+    "id": "tamarind",
+    "kind": "ingredient",
+    "term": "Tamarind",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=116397868",
+    "title": "File:Tamarind fruits (Tamarindus indica 'Si Thong').jpg",
+    "artist": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "bytes": 98624
+  },
+  {
+    "id": "jaggery",
+    "kind": "ingredient",
+    "term": "Jaggery",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=18418433",
+    "title": "File:Jaggery preparation0.jpg",
+    "artist": "Ezhuttukari",
+    "license": "CC BY-SA 3.0",
+    "bytes": 200797
+  },
+  {
+    "id": "mustard_seeds",
+    "kind": "ingredient",
+    "term": "Mustard seeds",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=3391306",
+    "title": "File:Senf-Variationen.jpg",
+    "artist": "Rainer Zenz",
+    "license": "CC BY-SA 3.0",
+    "bytes": 200642
+  },
+  {
+    "id": "recipe_corn_paneer_sabzi",
+    "kind": "recipe",
+    "term": "Sweet corn curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40729780",
+    "title": "File:Indian food TejaswiKonduri.jpg",
+    "artist": "Tejaswi.konduri",
+    "license": "CC BY-SA 4.0",
+    "bytes": 281921
+  },
+  {
+    "id": "recipe_dal_palak",
+    "kind": "recipe",
+    "term": "Spinach dal",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40732269",
+    "title": "File:Humble wholesome Spinach Dal with rice.JPG",
+    "artist": "Likhita Suresh",
+    "license": "CC BY-SA 4.0",
+    "bytes": 74910
+  },
+  {
+    "id": "recipe_mushroom_tikka",
+    "kind": "recipe",
+    "term": "Tandoori mushroom",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40982917",
+    "title": "File:Tandoori Mushroom.jpg",
+    "artist": "Dethans",
+    "license": "CC BY-SA 4.0",
+    "bytes": 188536
+  },
+  {
+    "id": "green_moong",
+    "kind": "ingredient",
+    "term": "Green gram",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=30657699",
+    "title": "File:Vigna radiata MHNT.BOT.2009.17.4.jpg",
+    "artist": "Roger Culos",
+    "license": "CC BY-SA 3.0",
+    "bytes": 118493
+  },
+  {
+    "id": "cauliflower",
+    "kind": "ingredient",
+    "term": "Cauliflower",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=191237878",
+    "title": "File:Brassica oleracea var. botrytis (Coliflor).jpg",
+    "artist": "Rjcastillo",
+    "license": "CC BY-SA 4.0",
+    "bytes": 140574
+  },
+  {
+    "id": "recipe_pepper_chicken",
+    "kind": "recipe",
+    "term": "Chicken fry dry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40934796",
+    "title": "File:Chicken Dry Fry At home.JPG",
+    "artist": "Nundhaa",
+    "license": "CC BY-SA 4.0",
+    "bytes": 231665
+  },
+  {
+    "id": "recipe_salmon_tikka",
+    "kind": "recipe",
+    "term": "Grilled salmon",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=89001687",
+    "title": "File:Grilled salmon and chips.jpg",
+    "artist": "Maksym Kozlenko",
+    "license": "CC BY-SA 4.0",
+    "bytes": 165312
+  },
+  {
+    "id": "recipe_oats_chilla",
+    "kind": "recipe",
+    "term": "Besan chilla",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40907452",
+    "title": "File:Chilla besan.JPG",
+    "artist": "Kamalsahansi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 202712
+  },
+  {
+    "id": "recipe_quinoa_veg_pulao",
+    "kind": "recipe",
+    "term": "Quinoa salad bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=178751228",
+    "title": "File:Healthy quinoa salad with dried fruit.jpg",
+    "artist": "TorbeyCharbel",
+    "license": "CC BY 4.0",
+    "bytes": 110163
+  },
+  {
+    "id": "recipe_cabbage_peas_sabzi",
+    "kind": "recipe",
+    "term": "Cabbage curry dish",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=14440248",
+    "title": "File:Cabbage with Potatoes Curry - Kolkata 2011-03-05 1911.JPG",
+    "artist": "Biswarup Ganguly",
+    "license": "CC BY 3.0",
+    "bytes": 241660
+  },
+  {
+    "id": "recipe_french_beans_thoran",
+    "kind": "recipe",
+    "term": "Green beans stir fry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=73879076",
+    "title": "File:Green Bean Stir Fry (140491597).jpeg",
+    "artist": "J Doll",
+    "license": "CC BY 3.0",
+    "bytes": 75452
+  },
+  {
+    "id": "recipe_x2_murgh_tariwala",
+    "kind": "recipe",
+    "term": "Chicken curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=130971968",
+    "title": "File:Chicken Curry 9.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 299215
+  },
+  {
+    "id": "recipe_x2_chicken_chettinad",
+    "kind": "recipe",
+    "term": "Chettinad chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=6372338",
+    "title": "File:ChickenChettinad.JPG",
+    "artist": "Maccess Corporation",
+    "license": "CC BY-SA 2.5",
+    "bytes": 374743
+  },
+  {
+    "id": "recipe_x2_kadai_chicken",
+    "kind": "recipe",
+    "term": "Kadai chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40858729",
+    "title": "File:Kadai chicken (karahi).jpg",
+    "artist": "Kulamani sethi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 108307
+  },
+  {
+    "id": "recipe_x2_chicken_do_pyaza",
+    "kind": "recipe",
+    "term": "Chicken do pyaza",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40990628",
+    "title": "File:Do pyaza chicken.jpg",
+    "artist": "Harshi3986",
+    "license": "CC BY-SA 4.0",
+    "bytes": 102417
+  },
+  {
+    "id": "recipe_x2_methi_murgh",
+    "kind": "recipe",
+    "term": "Methi chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40933328",
+    "title": "File:Methi chicken.jpg",
+    "artist": "Amit154",
+    "license": "CC BY-SA 4.0",
+    "bytes": 75203
+  },
+  {
+    "id": "recipe_x2_chicken_saagwala",
+    "kind": "recipe",
+    "term": "Palak chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=153977672",
+    "title": "File:Palak chapathi with chicken gravy.jpg",
+    "artist": "Nikitha Jotheswari",
+    "license": "CC BY-SA 4.0",
+    "bytes": 148893
+  },
+  {
+    "id": "recipe_x2_achari_chicken",
+    "kind": "recipe",
+    "term": "Achari chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40862786",
+    "title": "File:Achari Chicken.jpg",
+    "artist": "Monali.mishra",
+    "license": "CC BY-SA 4.0",
+    "bytes": 259247
+  },
+  {
+    "id": "recipe_x2_chicken_korma_lite",
+    "kind": "recipe",
+    "term": "Chicken korma",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=21945890",
+    "title": "File:Chicken Korma.JPG",
+    "artist": "Miansari66",
+    "license": "CC0",
+    "bytes": 205028
+  },
+  {
+    "id": "recipe_x2_lemon_coriander_chicken",
+    "kind": "recipe",
+    "term": "Chicken soup Indian",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=87471927",
+    "title": "File:Browned garlic chicken soup (8020381476).jpg",
+    "artist": "Devika",
+    "license": "CC BY-SA 2.0",
+    "bytes": 127247
+  },
+  {
+    "id": "recipe_x2_tandoori_tangri",
+    "kind": "recipe",
+    "term": "Tandoori chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=46781509",
+    "title": "File:Tandoori chicken Indian.jpg",
+    "artist": "pelican",
+    "license": "CC BY-SA 2.0",
+    "bytes": 150808
+  },
+  {
+    "id": "recipe_x2_chicken_sukka",
+    "kind": "recipe",
+    "term": "Chicken sukka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=148400380",
+    "title": "File:Mangalorean country chicken curry ( Kori sukka).jpg",
+    "artist": "Yakshitha",
+    "license": "CC BY-SA 4.0",
+    "bytes": 750447
+  },
+  {
+    "id": "recipe_x2_andhra_chilli_chicken",
+    "kind": "recipe",
+    "term": "Chilli chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=127180925",
+    "title": "File:Chicken Chilli 1.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 238300
+  },
+  {
+    "id": "recipe_x2_chicken_kolhapuri",
+    "kind": "recipe",
+    "term": "Kombdi vade",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=101608664",
+    "title": "File:Kombi Vade.jpg",
+    "artist": "Santheodore",
+    "license": "CC BY-SA 4.0",
+    "bytes": 279432
+  },
+  {
+    "id": "recipe_x2_schezwan_chicken",
+    "kind": "recipe",
+    "term": "Chilli chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=127180925",
+    "title": "File:Chicken Chilli 1.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "bytes": 238300
+  },
+  {
+    "id": "recipe_x2_chicken_manchurian_dry",
+    "kind": "recipe",
+    "term": "Chilli chicken dry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=99907852",
+    "title": "File:Dry Chilli Chicken (15912782091).jpg",
+    "artist": "Yummy O Yummy",
+    "license": "CC BY 2.0",
+    "bytes": 204436
+  },
+  {
+    "id": "recipe_x2_garlic_pepper_chicken",
+    "kind": "recipe",
+    "term": "Chicken fry dry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40934796",
+    "title": "File:Chicken Dry Fry At home.JPG",
+    "artist": "Nundhaa",
+    "license": "CC BY-SA 4.0",
+    "bytes": 231665
+  },
+  {
+    "id": "recipe_x2_reshmi_kebab",
+    "kind": "recipe",
+    "term": "Chicken tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=102031353",
+    "title": "File:Chicken tikka in Araku Valley, Andhra Pradesh 01.jpg",
+    "artist": "Satdeep Gill",
+    "license": "CC BY-SA 4.0",
+    "bytes": 208178
+  },
+  {
+    "id": "recipe_x2_malai_tikka",
+    "kind": "recipe",
+    "term": "Chicken malai tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40912987",
+    "title": "File:Malai chicken tikka.JPG",
+    "artist": "Nithyasrm",
+    "license": "CC BY-SA 4.0",
+    "bytes": 259335
+  },
+  {
+    "id": "recipe_x2_seekh_kebab",
+    "kind": "recipe",
+    "term": "Seekh kebab",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=25116021",
+    "title": "File:Seekh Kebab.JPG",
+    "artist": "raasiel",
+    "license": "CC BY 2.0",
+    "bytes": 47659
+  },
+  {
+    "id": "recipe_x2_shami_kebab",
+    "kind": "recipe",
+    "term": "Shami kebab",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=22221920",
+    "title": "File:4th October 2012 Shami Kebab.jpg",
+    "artist": "Murcotipton",
+    "license": "CC BY-SA 3.0",
+    "bytes": 189066
+  },
+  {
+    "id": "recipe_x2_keema_matar",
+    "kind": "recipe",
+    "term": "Keema matar",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75915491",
+    "title": "File:Keema Matar (a dish from India).jpg",
+    "artist": "Cabeza2000",
+    "license": "CC BY-SA 4.0",
+    "bytes": 458853
+  },
+  {
+    "id": "recipe_x2_chicken_stir_fry",
+    "kind": "recipe",
+    "term": "Chicken vegetable stir fry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=155761408",
+    "title": "File:Stir-fry Chicken, Curry, Vegetables Meal.jpg",
+    "artist": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "bytes": 193956
+  },
+  {
+    "id": "recipe_x2_grilled_chicken_bowl",
+    "kind": "recipe",
+    "term": "Grilled chicken salad",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75420907",
+    "title": "File:Caesar Salad & Grilled Chicken (30548011308).jpg",
+    "artist": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+    "license": "CC BY 2.0",
+    "bytes": 255342
+  },
+  {
+    "id": "recipe_x2_chicken_tikka_masala_lite",
+    "kind": "recipe",
+    "term": "Chicken tikka masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=4471677",
+    "title": "File:Chicken Tikka Masala KellySue.JPG",
+    "artist": "Kelly Sue",
+    "license": "CC BY 2.0",
+    "bytes": 62815
+  },
+  {
+    "id": "recipe_x2_chicken_jalfrezi",
+    "kind": "recipe",
+    "term": "Chicken jalfrezi",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=114088149",
+    "title": "File:Chicken jalfrezi, Bombay potato and naan.jpg",
+    "artist": "Jonathan",
+    "license": "CC BY 2.0",
+    "bytes": 77043
+  },
+  {
+    "id": "recipe_x2_chicken_bharta",
+    "kind": "recipe",
+    "term": "Chicken bharta",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75415729",
+    "title": "File:Chicken bharta 01.jpg",
+    "artist": "Marajozkee",
+    "license": "CC BY-SA 4.0",
+    "bytes": 179286
+  },
+  {
+    "id": "recipe_x2_coconut_chicken_curry",
+    "kind": "recipe",
+    "term": "Chicken coconut curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40877961",
+    "title": "File:Aappam with chicken curry with coconut milk.jpg",
+    "artist": "Mrs.bhaskaran",
+    "license": "CC BY-SA 4.0",
+    "bytes": 232388
+  },
+  {
+    "id": "recipe_x2_chicken_rara",
+    "kind": "recipe",
+    "term": "Chicken keema curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=46834287",
+    "title": "File:Chicken Keema.JPG",
+    "artist": "Miansari66",
+    "license": "CC0",
+    "bytes": 285463
+  },
+  {
+    "id": "recipe_x2_dhaba_chicken",
+    "kind": "recipe",
+    "term": "Dhaba chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=101809442",
+    "title": "File:Peace dhaba-chicken curry with fried rice and roti- shillong, meghalaya-1.jpg",
+    "artist": "Deepikadake",
+    "license": "CC BY-SA 4.0",
+    "bytes": 400925
+  },
+  {
+    "id": "recipe_x2_chicken_ghee_roast",
+    "kind": "recipe",
+    "term": "Chicken ghee roast",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40796127",
+    "title": "File:Chicken ghee roast.jpg",
+    "artist": "Hasna e",
+    "license": "CC BY-SA 4.0",
+    "bytes": 130829
+  },
+  {
+    "id": "recipe_x2_coriander_mint_chicken",
+    "kind": "recipe",
+    "term": "Hariyali chicken",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=185635926",
+    "title": "File:Chicken Hariyali kebab.jpg",
+    "artist": "P1898",
+    "license": "CC BY 4.0",
+    "bytes": 209916
+  },
+  {
+    "id": "recipe_x2_chicken_hara_masala",
+    "kind": "recipe",
+    "term": "Green chicken curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=9792781",
+    "title": "File:Thai green chicken curry and roti.jpg",
+    "artist": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "bytes": 163499
+  },
+  {
+    "id": "recipe_x2_pahadi_tikka",
+    "kind": "recipe",
+    "term": "Hariyali chicken tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40764603",
+    "title": "File:Chicken Seekh kabab & Hariyali Tikka.jpg",
+    "artist": "Abhishek Verma",
+    "license": "CC BY-SA 4.0",
+    "bytes": 147391
+  },
+  {
+    "id": "recipe_x2_chicken_steak",
+    "kind": "recipe",
+    "term": "Grilled chicken breast",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=145083096",
+    "title": "File:Grilled chicken breast, Santo Domingo, La Palma.jpg",
+    "artist": "Gerda Arendt",
+    "license": "CC0",
+    "bytes": 221932
+  },
+  {
+    "id": "recipe_x2_egg_curry_masala",
+    "kind": "recipe",
+    "term": "Egg curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126093541",
+    "title": "File:Spicy Anda Curry.jpg",
+    "artist": "https://onlybestrecipes.com/egg-curry-recipeegg-curry-recipe/",
+    "license": "CC BY-SA 4.0",
+    "bytes": 159491
+  },
+  {
+    "id": "recipe_x2_anda_bhurji_deluxe",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_egg_paneer_bhurji",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_masala_omelette",
+    "kind": "recipe",
+    "term": "Masala omelette",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=39460278",
+    "title": "File:Indian Omelette Odisha.jpg",
+    "artist": "Saileshpat",
+    "license": "CC BY-SA 4.0",
+    "bytes": 140459
+  },
+  {
+    "id": "recipe_x2_egg_cheese_omelette",
+    "kind": "recipe",
+    "term": "Omelette",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=15601118",
+    "title": "File:FoodOmelete.jpg",
+    "artist": "Renee Comet (photographer)",
+    "license": "Public domain",
+    "bytes": 205365
+  },
+  {
+    "id": "recipe_x2_egg_white_scramble",
+    "kind": "recipe",
+    "term": "Scrambled eggs",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126449046",
+    "title": "File:Scrambled eggs with basil.jpg",
+    "artist": "OmegaFallon",
+    "license": "CC BY 4.0",
+    "bytes": 199768
+  },
+  {
+    "id": "recipe_x2_egg_korma",
+    "kind": "recipe",
+    "term": "Egg curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126093541",
+    "title": "File:Spicy Anda Curry.jpg",
+    "artist": "https://onlybestrecipes.com/egg-curry-recipeegg-curry-recipe/",
+    "license": "CC BY-SA 4.0",
+    "bytes": 159491
+  },
+  {
+    "id": "recipe_x2_deviled_eggs",
+    "kind": "recipe",
+    "term": "Deviled eggs",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=8008946",
+    "title": "File:Deviled Eggs - 3-23-08.jpg",
+    "artist": "Marshall Astor from San Pedro, United States",
+    "license": "CC BY-SA 2.0",
+    "bytes": 160998
+  },
+  {
+    "id": "recipe_x2_egg_frankie_filling",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_egg_capsicum_fry",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_egg_drop_curry",
+    "kind": "recipe",
+    "term": "Egg curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126093541",
+    "title": "File:Spicy Anda Curry.jpg",
+    "artist": "https://onlybestrecipes.com/egg-curry-recipeegg-curry-recipe/",
+    "license": "CC BY-SA 4.0",
+    "bytes": 159491
+  },
+  {
+    "id": "recipe_x2_nadan_egg_roast",
+    "kind": "recipe",
+    "term": "Egg roast Kerala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=101995383",
+    "title": "File:Egg roast Kerala.jpg",
+    "artist": "Dr. Chinchu C.",
+    "license": "CC BY-SA 4.0",
+    "bytes": 236481
+  },
+  {
+    "id": "recipe_x2_egg_ghotala",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_parsi_akuri",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_egg_spinach_frittata",
+    "kind": "recipe",
+    "term": "Frittata",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=147020544",
+    "title": "File:Frittata - Bam's Kitchen 2024-04-02.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "bytes": 198850
+  },
+  {
+    "id": "recipe_x2_egg_mushroom_bhurji",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_egg_methi_scramble",
+    "kind": "recipe",
+    "term": "Scrambled eggs",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126449046",
+    "title": "File:Scrambled eggs with basil.jpg",
+    "artist": "OmegaFallon",
+    "license": "CC BY 4.0",
+    "bytes": 199768
+  },
+  {
+    "id": "recipe_x2_egg_tomato_curry",
+    "kind": "recipe",
+    "term": "Egg curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126093541",
+    "title": "File:Spicy Anda Curry.jpg",
+    "artist": "https://onlybestrecipes.com/egg-curry-recipeegg-curry-recipe/",
+    "license": "CC BY-SA 4.0",
+    "bytes": 159491
+  },
+  {
+    "id": "recipe_x2_egg_paneer_tikka",
+    "kind": "recipe",
+    "term": "Paneer tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=4122454",
+    "title": "File:Panir Tikka Indian cheese grilled.jpg",
+    "artist": "Sonja Pauen -Stanhopea",
+    "license": "CC BY 2.0 de",
+    "bytes": 183044
+  },
+  {
+    "id": "recipe_x2_egg_soya_bhurji",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_egg_masala_fry",
+    "kind": "recipe",
+    "term": "Egg roast",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=101995383",
+    "title": "File:Egg roast Kerala.jpg",
+    "artist": "Dr. Chinchu C.",
+    "license": "CC BY-SA 4.0",
+    "bytes": 236481
+  },
+  {
+    "id": "recipe_x2_egg_salad_bowl",
+    "kind": "recipe",
+    "term": "Egg salad",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=60117942",
+    "title": "File:Egg salad 01.jpg",
+    "artist": "Mushki Brichta",
+    "license": "CC BY-SA 4.0",
+    "bytes": 77117
+  },
+  {
+    "id": "recipe_x2_egg_quinoa_bowl",
+    "kind": "recipe",
+    "term": "Quinoa bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=83080941",
+    "title": "File:Vegan Quinoa Bowl (44040185371).jpg",
+    "artist": "Ella Olsson from Stockholm, Sweden",
+    "license": "CC BY 2.0",
+    "bytes": 154788
+  },
+  {
+    "id": "recipe_x2_pepper_egg_fry",
+    "kind": "recipe",
+    "term": "Egg roast Kerala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=101995383",
+    "title": "File:Egg roast Kerala.jpg",
+    "artist": "Dr. Chinchu C.",
+    "license": "CC BY-SA 4.0",
+    "bytes": 236481
+  },
+  {
+    "id": "recipe_x2_egg_coconut_curry",
+    "kind": "recipe",
+    "term": "Egg curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126093541",
+    "title": "File:Spicy Anda Curry.jpg",
+    "artist": "https://onlybestrecipes.com/egg-curry-recipeegg-curry-recipe/",
+    "license": "CC BY-SA 4.0",
+    "bytes": 159491
+  },
+  {
+    "id": "recipe_x2_egg_keema",
+    "kind": "recipe",
+    "term": "Keema",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=126989518",
+    "title": "File:Keema and Pita.jpg",
+    "artist": "Cyapoj",
+    "license": "CC BY-SA 4.0",
+    "bytes": 252964
+  },
+  {
+    "id": "recipe_x2_egg_cheese_cups",
+    "kind": "recipe",
+    "term": "Baked eggs",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=7375284",
+    "title": "File:Oeufs cocotte provencale.jpg",
+    "artist": "Charlie1",
+    "license": "CC BY-SA 3.0",
+    "bytes": 120093
+  },
+  {
+    "id": "recipe_x2_egg_besan_cheela",
+    "kind": "recipe",
+    "term": "Besan cheela",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40974663",
+    "title": "File:Besan cheela with toppings.jpg",
+    "artist": "Kamran12341",
+    "license": "CC BY-SA 4.0",
+    "bytes": 67591
+  },
+  {
+    "id": "recipe_x2_egg_oats_omelette",
+    "kind": "recipe",
+    "term": "Omelette",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=15601118",
+    "title": "File:FoodOmelete.jpg",
+    "artist": "Renee Comet (photographer)",
+    "license": "Public domain",
+    "bytes": 205365
+  },
+  {
+    "id": "recipe_x2_egg_coriander_fry",
+    "kind": "recipe",
+    "term": "Egg roast Kerala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=101995383",
+    "title": "File:Egg roast Kerala.jpg",
+    "artist": "Dr. Chinchu C.",
+    "license": "CC BY-SA 4.0",
+    "bytes": 236481
+  },
+  {
+    "id": "recipe_x2_egg_palak_bhurji",
+    "kind": "recipe",
+    "term": "Egg bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=28928158",
+    "title": "File:Spicy egg bhurji @ the eggfactory.jpg",
+    "artist": "Praveen from Bangalore, India",
+    "license": "CC BY 2.0",
+    "bytes": 151866
+  },
+  {
+    "id": "recipe_x2_paneer_bhurji_masala",
+    "kind": "recipe",
+    "term": "Paneer bhurji",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=185836768",
+    "title": "File:Homemade Paneer Bhurji cooked in pan India.jpg",
+    "artist": "Status 401",
+    "license": "CC BY-SA 4.0",
+    "bytes": 457735
+  },
+  {
+    "id": "recipe_x2_matar_paneer_lite",
+    "kind": "recipe",
+    "term": "Matar paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40795409",
+    "title": "File:Matar-Paneer.JPG",
+    "artist": "Mdsmds0",
+    "license": "CC BY-SA 4.0",
+    "bytes": 178740
+  },
+  {
+    "id": "recipe_x2_kadai_paneer",
+    "kind": "recipe",
+    "term": "Kadai paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103384486",
+    "title": "File:Kadai paneer with garlic naan.jpg",
+    "artist": "YKanchan07",
+    "license": "CC BY-SA 4.0",
+    "bytes": 102684
+  },
+  {
+    "id": "recipe_x2_paneer_tikka_masala_v2",
+    "kind": "recipe",
+    "term": "Paneer tikka masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40987430",
+    "title": "File:Paneer Tikka masala.JPG",
+    "artist": "Srivalli Vijayakumar",
+    "license": "CC BY-SA 4.0",
+    "bytes": 137356
+  },
+  {
+    "id": "recipe_x2_shahi_paneer_lite",
+    "kind": "recipe",
+    "term": "Shahi paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40793159",
+    "title": "File:Shahi Paneer & Butter Naan.jpg",
+    "artist": "Shashank7200",
+    "license": "CC BY-SA 4.0",
+    "bytes": 128329
+  },
+  {
+    "id": "recipe_x2_paneer_lababdar_lite",
+    "kind": "recipe",
+    "term": "Paneer butter masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=152164049",
+    "title": "File:Paneer butter masala 2.jpg",
+    "artist": "Gannu03",
+    "license": "CC BY-SA 4.0",
+    "bytes": 221844
+  },
+  {
+    "id": "recipe_x2_chilli_paneer_dry",
+    "kind": "recipe",
+    "term": "Chilli paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=74913129",
+    "title": "File:Chilly Paneer 01.jpg",
+    "artist": "Marajozkee",
+    "license": "CC BY-SA 4.0",
+    "bytes": 214046
+  },
+  {
+    "id": "recipe_x2_paneer_65",
+    "kind": "recipe",
+    "term": "Paneer pakora",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=94244993",
+    "title": "File:Pakora in fry pan.jpg",
+    "artist": "JogiAsad",
+    "license": "CC BY-SA 4.0",
+    "bytes": 64827
+  },
+  {
+    "id": "recipe_x2_achari_paneer",
+    "kind": "recipe",
+    "term": "Paneer curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40793159",
+    "title": "File:Shahi Paneer & Butter Naan.jpg",
+    "artist": "Shashank7200",
+    "license": "CC BY-SA 4.0",
+    "bytes": 128329
+  },
+  {
+    "id": "recipe_x2_paneer_methi_malai",
+    "kind": "recipe",
+    "term": "Methi malai paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=102124442",
+    "title": "File:Methi Paneer Malai.jpg",
+    "artist": "1Bongfoodie",
+    "license": "CC BY-SA 4.0",
+    "bytes": 244027
+  },
+  {
+    "id": "recipe_x2_soya_keema_matar",
+    "kind": "recipe",
+    "term": "Soya keema",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103230766",
+    "title": "File:Ghee Roast Soya Keema with Mini Parathas.jpg",
+    "artist": "SaurWiki",
+    "license": "CC BY-SA 4.0",
+    "bytes": 183221
+  },
+  {
+    "id": "recipe_x2_soya_biryani_bowl",
+    "kind": "recipe",
+    "term": "Soya biryani",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=34887094",
+    "title": "File:Soya Biryani.jpg",
+    "artist": "Barthateslisa",
+    "license": "CC BY-SA 3.0",
+    "bytes": 159811
+  },
+  {
+    "id": "recipe_x2_tofu_bhurji",
+    "kind": "recipe",
+    "term": "Tofu scramble",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=125720158",
+    "title": "File:Tofu Scramble in New Orleans.jpg",
+    "artist": "Bart Everson",
+    "license": "CC BY 2.0",
+    "bytes": 250063
+  },
+  {
+    "id": "recipe_x2_tofu_tikka",
+    "kind": "recipe",
+    "term": "Tofu tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=35602784",
+    "title": "File:Tofu Tikka Masala with Brown Rice and Chilies (4940638692).jpg",
+    "artist": "Vegan Feast Catering",
+    "license": "CC BY 2.0",
+    "bytes": 324508
+  },
+  {
+    "id": "recipe_x2_tofu_schezwan",
+    "kind": "recipe",
+    "term": "Chilli soya",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40859283",
+    "title": "File:Indian Soya chilli chap.jpg",
+    "artist": "SC(your tax Expert)",
+    "license": "CC BY-SA 4.0",
+    "bytes": 232507
+  },
+  {
+    "id": "recipe_x2_hara_bhara_soya_kebab",
+    "kind": "recipe",
+    "term": "Hara bhara kabab",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40979276",
+    "title": "File:Hara bhara kabab-.JPG",
+    "artist": "Kanikatwl",
+    "license": "CC BY-SA 4.0",
+    "bytes": 138262
+  },
+  {
+    "id": "recipe_x2_sprout_paneer_salad",
+    "kind": "recipe",
+    "term": "Sprout chaat",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40942005",
+    "title": "File:Sprout Chaat.jpg",
+    "artist": "Bingo2310",
+    "license": "CC BY-SA 4.0",
+    "bytes": 190066
+  },
+  {
+    "id": "recipe_x2_moong_sprout_chaat",
+    "kind": "recipe",
+    "term": "Sprout chaat",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40942005",
+    "title": "File:Sprout Chaat.jpg",
+    "artist": "Bingo2310",
+    "license": "CC BY-SA 4.0",
+    "bytes": 190066
+  },
+  {
+    "id": "recipe_x2_rajma_paneer_bowl",
+    "kind": "recipe",
+    "term": "Rajma masala curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40915147",
+    "title": "File:Brinjal rajma masala.JPG",
+    "artist": "Nithyasrm",
+    "license": "CC BY-SA 4.0",
+    "bytes": 133277
+  },
+  {
+    "id": "recipe_x2_chana_paneer_bowl",
+    "kind": "recipe",
+    "term": "Chana masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=148797097",
+    "title": "File:Chana Masala - Mohammed - Spice Of Life 2024-05-27.jpg",
+    "artist": "Andy Li",
+    "license": "CC0",
+    "bytes": 185673
+  },
+  {
+    "id": "recipe_x2_besan_soya_chilla",
+    "kind": "recipe",
+    "term": "Besan chilla",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40907452",
+    "title": "File:Chilla besan.JPG",
+    "artist": "Kamalsahansi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 202712
+  },
+  {
+    "id": "recipe_x2_dal_paneer_tadka",
+    "kind": "recipe",
+    "term": "Dal fry bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40884622",
+    "title": "File:Rice, Palak Aloo, Stir Fried Beans & Potatoes, A Bowl Of Arhar Dal.jpg",
+    "artist": "Monali.mishra",
+    "license": "CC BY-SA 4.0",
+    "bytes": 145157
+  },
+  {
+    "id": "recipe_x2_greek_yogurt_bowl",
+    "kind": "recipe",
+    "term": "Yogurt bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=103915864",
+    "title": "File:Yogurt fruit bowl.jpg",
+    "artist": "Jumbocombo0811",
+    "license": "CC BY-SA 4.0",
+    "bytes": 375092
+  },
+  {
+    "id": "recipe_x2_peanut_paneer_salad",
+    "kind": "recipe",
+    "term": "Kachumber",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=17601078",
+    "title": "File:Kachumber Salad.JPG",
+    "artist": "Miansari66",
+    "license": "CC0",
+    "bytes": 252728
+  },
+  {
+    "id": "recipe_x2_mushroom_paneer_masala",
+    "kind": "recipe",
+    "term": "Mushroom masala curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40789082",
+    "title": "File:Mushroom Tikka Masala by Preeti Tamilarasan.jpg",
+    "artist": "Preeti Tamilarasan",
+    "license": "CC BY-SA 4.0",
+    "bytes": 714933
+  },
+  {
+    "id": "recipe_x2_palak_tofu",
+    "kind": "recipe",
+    "term": "Palak paneer",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=102610555",
+    "title": "File:Palakpaneer Rayagada Odisha 0009.jpg",
+    "artist": "Lopanayak",
+    "license": "CC BY-SA 4.0",
+    "bytes": 244973
+  },
+  {
+    "id": "recipe_x2_soya_malai_curry",
+    "kind": "recipe",
+    "term": "Soya chunk curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40694277",
+    "title": "File:Nutrela Soya Chunks Curry.jpg",
+    "artist": "Rashmi Biswas",
+    "license": "CC BY-SA 4.0",
+    "bytes": 150791
+  },
+  {
+    "id": "recipe_x2_paneer_capsicum_stir_fry",
+    "kind": "recipe",
+    "term": "Paneer capsicum",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=114354045",
+    "title": "File:Paneer Capsicum Sabzi from India.jpg",
+    "artist": "Ravi Dwivedi",
+    "license": "CC BY-SA 4.0",
+    "bytes": 302815
+  },
+  {
+    "id": "recipe_x2_tofu_peanut_stir_fry",
+    "kind": "recipe",
+    "term": "Tofu vegetable stir fry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=77858938",
+    "title": "File:Stir-fry spinach with tofu - Golden white jade and Green Parrot (菠菜炒豆腐 - 金鑲白玉板，紅嘴綠鸚哥)(2).jpg",
+    "artist": "NeoBatfreak",
+    "license": "CC BY-SA 4.0",
+    "bytes": 139455
+  },
+  {
+    "id": "recipe_x2_paneer_quinoa_bowl",
+    "kind": "recipe",
+    "term": "Quinoa bowl",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=83080941",
+    "title": "File:Vegan Quinoa Bowl (44040185371).jpg",
+    "artist": "Ella Olsson from Stockholm, Sweden",
+    "license": "CC BY 2.0",
+    "bytes": 154788
+  },
+  {
+    "id": "recipe_x2_sattu_paneer_paratha",
+    "kind": "recipe",
+    "term": "Sattu paratha",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40894927",
+    "title": "File:Sattu Paratha.jpg",
+    "artist": "Samar Fatma",
+    "license": "CC BY-SA 4.0",
+    "bytes": 122871
+  },
+  {
+    "id": "recipe_x2_cottage_cheese_skewers",
+    "kind": "recipe",
+    "term": "Paneer tikka",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=4122454",
+    "title": "File:Panir Tikka Indian cheese grilled.jpg",
+    "artist": "Sonja Pauen -Stanhopea",
+    "license": "CC BY 2.0 de",
+    "bytes": 183044
+  },
+  {
+    "id": "recipe_x2_mixed_veg_paneer_curry",
+    "kind": "recipe",
+    "term": "Mixed vegetable curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=111289571",
+    "title": "File:Mixed vegetable curry 2.jpg",
+    "artist": "Dolon Prova",
+    "license": "CC BY-SA 4.0",
+    "bytes": 220543
+  },
+  {
+    "id": "recipe_x2_paneer_makhani_lite",
+    "kind": "recipe",
+    "term": "Paneer butter masala",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=152164049",
+    "title": "File:Paneer butter masala 2.jpg",
+    "artist": "Gannu03",
+    "license": "CC BY-SA 4.0",
+    "bytes": 221844
+  },
+  {
+    "id": "recipe_x2_boiled_egg_chaat",
+    "kind": "recipe",
+    "term": "Egg salad",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=60117942",
+    "title": "File:Egg salad 01.jpg",
+    "artist": "Mushki Brichta",
+    "license": "CC BY-SA 4.0",
+    "bytes": 77117
+  },
+  {
+    "id": "recipe_soya_keema_matar",
+    "kind": "recipe",
+    "term": "Soya chunk curry",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=40694277",
+    "title": "File:Nutrela Soya Chunks Curry.jpg",
+    "artist": "Rashmi Biswas",
+    "license": "CC BY-SA 4.0",
+    "bytes": 150791
+  }
+]

@@ -26,7 +26,7 @@ function useEffectiveTheme(pref) {
 
 function BottomNav({ tab, go }) {
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', background: 'var(--card)', borderTop: '1px solid var(--line)', padding: '9px 6px calc(8px + var(--safe-bottom))', flex: '0 0 auto' }}>
+    <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', background: 'var(--cream)', borderTop: '1px solid var(--line)', padding: '10px 6px 12px', flex: '0 0 auto' }}>
       {TABS.map(([key, label, icon]) => {
         const on = tab === key;
         return (
@@ -54,7 +54,7 @@ function Screen({ name, props }) {
 export function App() {
   const { state, dispatch } = useStore();
   const auth = useAuth();
-  useCloudSync(state, dispatch, auth && auth.user);
+  const { refresh } = useCloudSync(state, dispatch, auth && auth.user);
   const theme = useEffectiveTheme(state.settings.theme);
   const [tab, setTab] = React.useState('today');
   const [stack, setStack] = React.useState([]);
@@ -62,10 +62,16 @@ export function App() {
   const undoRef = React.useRef(null);
   const toastTimer = React.useRef(null);
 
-  // keep browser theme-color in sync with effective theme
+  // keep browser theme-color + root background in sync with effective theme.
+  // Every bottom-touching surface (html/body, .pk-app, the nav) uses the SAME screen
+  // colour (--cream), so the iOS PWA home-indicator safe zone — which paints the root
+  // background below the content — is invisible on every screen (no band/strip).
   React.useEffect(() => {
+    const cream = theme === 'dark' ? '#17140F' : '#FBF7F0';
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', theme === 'dark' ? '#1b1714' : '#E8983C');
+    if (meta) meta.setAttribute('content', cream);
+    document.documentElement.style.background = cream;
+    document.body.style.background = cream;
   }, [theme]);
 
   const notify = React.useCallback((t) => {
@@ -79,12 +85,13 @@ export function App() {
     push: (screen) => setStack(s => [...s, screen]),
     pop: () => setStack(s => s.slice(0, -1)),
     notify,
-  }), [notify]);
+    refresh,
+  }), [notify, refresh]);
 
   const top = stack[stack.length - 1];
 
   return (
-    <div className="pk-app" data-theme={theme} style={{ position: 'fixed', inset: 0, background: theme === 'dark' ? '#0E0C09' : '#E7DDCB', display: 'flex', justifyContent: 'center' }}>
+    <div className="pk-app" data-theme={theme} style={{ position: 'fixed', inset: 0, background: theme === 'dark' ? '#17140F' : '#FBF7F0', display: 'flex', justifyContent: 'center' }}>
       <div className="pk-shell" style={{ width: '100%', maxWidth: 480, height: '100%', position: 'relative', overflow: 'hidden', background: 'var(--cream)', boxShadow: '0 0 60px rgba(40,25,5,0.18)' }}>
         <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', background: 'var(--cream)', paddingTop: 'var(--safe-top)' }}>
           <PKNavCtx.Provider value={nav}>

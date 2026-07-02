@@ -4,7 +4,7 @@ import { useStore } from '../store/store.jsx';
 import { useNav, getRecipe } from '../nav.jsx';
 import { PK_DATA } from '../data/data.js';
 import { PKLib } from '../lib/lib.js';
-import { Thumb, Icon, DietDot, StatBox, MacroBar, Stepper } from '../components/ui.jsx';
+import { Thumb, Icon, DietDot, StatBox, MacroBar, Stepper, PullToRefresh } from '../components/ui.jsx';
 import { LogSheet } from '../components/cards.jsx';
 
 export function RecipeDetail({ recipeId }) {
@@ -19,7 +19,7 @@ export function RecipeDetail({ recipeId }) {
   const ingMap = Object.fromEntries(PK_DATA.ingredients.map(i => [i.id, i]));
 
   // stat boxes & macro breakdown always show PER-SERVING (matches recipe cards).
-  const perServing = { protein: recipe.proteinPerServing, kcal: recipe.caloriesPerServing, carbs: recipe.carbsPerServing, fat: recipe.fatPerServing };
+  const perServing = { protein: recipe.proteinPerServing, kcal: recipe.caloriesPerServing, carbs: recipe.carbsPerServing, fat: recipe.fatPerServing, fibre: recipe.fibrePerServing };
   // the stepper scales only the ingredient list (for cooking & grocery).
   const ingredientsSorted = [...(recipe.ingredients || [])].map(ref => {
     const ing = ingMap[ref.ingredientId] || { name: ref.ingredientId, proteinPer100g: 0 };
@@ -53,8 +53,8 @@ export function RecipeDetail({ recipeId }) {
         </div>
       </div>
 
-      <div className="pk-scroll" onScroll={e => setScrolled(e.target.scrollTop > 150)} style={{ flex: 1 }}>
-        <Thumb cat={recipe.category} style={{ height: 230 }}>
+      <PullToRefresh onRefresh={nav.refresh} onScroll={e => setScrolled(e.target.scrollTop > 150)} style={{ flex: 1 }}>
+        <Thumb cat={recipe.category} src={recipe.image} alt={recipe.title} style={{ height: 230 }}>
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(40,20,5,0.25), transparent 30%, transparent 70%, var(--cream))' }} />
         </Thumb>
         <div style={{ padding: '0 18px 120px', marginTop: -28, position: 'relative' }}>
@@ -81,6 +81,12 @@ export function RecipeDetail({ recipeId }) {
               <span style={{ fontSize: 11, fontWeight: 700, color: 'var(--ink-3)', whiteSpace: 'nowrap' }}>per serving</span>
             </div>
             <MacroBar protein={perServing.protein} carbs={perServing.carbs} fat={perServing.fat} height={11} showLabels />
+            {perServing.fibre != null && (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: 12, paddingTop: 12, borderTop: '1px solid var(--line)' }}>
+                <span style={{ fontSize: 12.5, fontWeight: 700, color: 'var(--ink-3)' }}>Dietary fibre</span>
+                <span style={{ fontSize: 13.5, fontWeight: 800, color: 'var(--basil)' }}>{perServing.fibre}g</span>
+              </div>
+            )}
           </div>
 
           {/* servings stepper — scales ingredients only */}
@@ -98,6 +104,8 @@ export function RecipeDetail({ recipeId }) {
                 <span style={{ width: 22, height: 22, borderRadius: 7, border: '1.8px solid ' + (checked[ref.ingredientId] ? 'var(--basil)' : 'var(--line)'), background: checked[ref.ingredientId] ? 'var(--basil)' : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto' }}>
                   {checked[ref.ingredientId] && <Icon name="check" size={13} stroke="#fff" sw={2.6} />}
                 </span>
+                <img src={ing.image} alt="" loading="lazy" onError={e => { e.currentTarget.style.display = 'none'; }}
+                  style={{ width: 38, height: 38, borderRadius: 10, objectFit: 'cover', flex: '0 0 auto', background: 'var(--cream-2)', opacity: checked[ref.ingredientId] ? 0.5 : 1 }} />
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <div style={{ fontSize: 13.5, fontWeight: 600, textDecoration: checked[ref.ingredientId] ? 'line-through' : 'none', opacity: checked[ref.ingredientId] ? 0.5 : 1 }}>{ing.name}</div>
                   <div style={{ fontSize: 11.5, color: 'var(--ink-3)', fontWeight: 600 }}>{grams >= 1000 ? (grams / 1000).toFixed(1) + ' kg' : grams + ' g'}</div>
@@ -120,8 +128,37 @@ export function RecipeDetail({ recipeId }) {
               </div>
             ))}
           </div>
+
+          {/* videos */}
+          {recipe.videos && recipe.videos.length > 0 && (
+            <div style={{ marginTop: 26 }}>
+              <SectionH>Watch how to make it</SectionH>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                {recipe.videos.map(v => (
+                  <a key={v.id} href={`https://www.youtube.com/watch?v=${v.id}`} target="_blank" rel="noopener noreferrer"
+                    className="pk-press" style={{ display: 'flex', gap: 12, alignItems: 'center', background: 'var(--card)', borderRadius: 14, padding: 8, boxShadow: 'var(--shadow)', textDecoration: 'none', color: 'inherit' }}>
+                    <div style={{ position: 'relative', width: 124, height: 70, borderRadius: 10, overflow: 'hidden', flex: '0 0 auto', background: 'var(--cream-2)' }}>
+                      <img src={`https://img.youtube.com/vi/${v.id}/mqdefault.jpg`} alt={v.title} loading="lazy"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }} onError={e => { e.currentTarget.style.display = 'none'; }} />
+                      <span style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <span style={{ width: 30, height: 30, borderRadius: '50%', background: 'rgba(20,12,4,0.62)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                          <svg width="13" height="13" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z" /></svg>
+                        </span>
+                      </span>
+                      {v.length && <span style={{ position: 'absolute', right: 4, bottom: 4, background: 'rgba(0,0,0,0.8)', color: '#fff', fontSize: 10, fontWeight: 700, padding: '1px 4px', borderRadius: 4 }}>{v.length}</span>}
+                    </div>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ fontSize: 13, fontWeight: 700, lineHeight: 1.32, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{v.title}</div>
+                      {v.channel && <div style={{ fontSize: 11.5, fontWeight: 600, color: 'var(--ink-3)', marginTop: 4, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{v.channel}</div>}
+                    </div>
+                  </a>
+                ))}
+              </div>
+              <div style={{ fontSize: 10.5, fontWeight: 600, color: 'var(--ink-3)', marginTop: 10, textAlign: 'center' }}>Videos from YouTube · opens in YouTube</div>
+            </div>
+          )}
         </div>
-      </div>
+      </PullToRefresh>
 
       {/* sticky action bar */}
       <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '12px 16px calc(12px + var(--safe-bottom))', background: 'var(--card)', borderTop: '1px solid var(--line)', display: 'flex', gap: 10, alignItems: 'center' }}>

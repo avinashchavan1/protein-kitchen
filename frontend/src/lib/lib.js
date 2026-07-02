@@ -29,6 +29,7 @@ export const PKLib = (function () {
       kcal: Math.round((recipe.caloriesPerServing || 0) * servings),
       carbs: Math.round((recipe.carbsPerServing || 0) * servings),
       fat: Math.round((recipe.fatPerServing || 0) * servings),
+      fibre: Math.round((recipe.fibrePerServing || 0) * servings),
     };
   }
   // per-serving macros multiplied by qty servings (recipe macros are already per-serving)
@@ -38,6 +39,7 @@ export const PKLib = (function () {
       kcal: Math.round((recipe.caloriesPerServing || 0) * servings),
       carbs: +((recipe.carbsPerServing || 0) * servings).toFixed(0),
       fat: +((recipe.fatPerServing || 0) * servings).toFixed(0),
+      fibre: +((recipe.fibrePerServing || 0) * servings).toFixed(0),
     };
   }
   // scale an ingredient quantity when servings change from the recipe default

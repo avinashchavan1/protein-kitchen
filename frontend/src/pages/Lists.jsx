@@ -3,7 +3,7 @@ import React from 'react';
 import { useStore } from '../store/store.jsx';
 import { useNav, getRecipe } from '../nav.jsx';
 import { PK_DATA } from '../data/data.js';
-import { Icon, EmptyState } from '../components/ui.jsx';
+import { Icon, EmptyState, PullToRefresh } from '../components/ui.jsx';
 import { RecipeCardGrid } from '../components/cards.jsx';
 
 function OverlayHeader({ title, onBack, right }) {
@@ -23,11 +23,11 @@ export function Favorites() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <OverlayHeader title={`Favorites${favs.length ? ' · ' + favs.length : ''}`} onBack={nav.pop} />
-      <div className="pk-scroll" style={{ flex: 1, padding: '0 16px 16px' }}>
+      <PullToRefresh onRefresh={nav.refresh} style={{ flex: 1, padding: '0 16px 16px' }}>
         {favs.length === 0
           ? <EmptyState icon="heart" title="No favorites yet" body="Tap the heart on any recipe to save it here for quick access." cta="Browse recipes" onCta={() => nav.go('browse')} />
           : <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>{favs.map(r => <RecipeCardGrid key={r.id} recipe={r} />)}</div>}
-      </div>
+      </PullToRefresh>
     </div>
   );
 }
@@ -47,7 +47,7 @@ export function Grocery() {
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <OverlayHeader title={`Grocery${items.length ? ' · ' + items.length : ''}`} onBack={nav.pop}
         right={items.length > 0 && <button className="pk-press" onClick={() => dispatch({ type: 'GROCERY_CLEAR_ALL' })} style={{ fontSize: 12.5, fontWeight: 700, color: 'var(--paprika)', padding: '8px 10px' }}>Clear</button>} />
-      <div className="pk-scroll" style={{ flex: 1, padding: '0 16px 16px' }}>
+      <PullToRefresh onRefresh={nav.refresh} style={{ flex: 1, padding: '0 16px 16px' }}>
         {items.length === 0
           ? <EmptyState icon="cart" title="Grocery list is empty" body="Add ingredients from any recipe or send a week from the planner." cta="Browse recipes" onCta={() => nav.go('browse')} />
           : (
@@ -74,7 +74,7 @@ export function Grocery() {
               )}
             </React.Fragment>
           )}
-      </div>
+      </PullToRefresh>
     </div>
   );
 }

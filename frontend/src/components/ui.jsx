@@ -11,7 +11,7 @@ import React from 'react';
     --ink:#221E1A; --ink-2:#54493E; --ink-3:#8A7E70;
     --cream:#FBF7F0; --cream-2:#F4ECDF; --line:#EADFCE; --card:#FFFFFF;
     --shadow:0 4px 18px rgba(60,40,15,0.08); --shadow-lg:0 12px 34px rgba(60,40,15,0.16);
-    --safe-top:env(safe-area-inset-top,14px); --safe-bottom:env(safe-area-inset-bottom,20px);
+    --safe-top:max(14px, env(safe-area-inset-top)); --safe-bottom:max(8px, env(safe-area-inset-bottom));
   }
   [data-theme="dark"]{
     --ink:#F6EEE2; --ink-2:#C7B9A6; --ink-3:#8C7E6C;
@@ -31,6 +31,8 @@ import React from 'react';
   @keyframes pk-fade{from{opacity:0}to{opacity:1}}
   @keyframes pk-toast{0%{transform:translateY(20px);opacity:0}12%{transform:translateY(0);opacity:1}88%{opacity:1}100%{opacity:0}}
   @keyframes pk-confetti{0%{transform:translateY(0) rotate(0);opacity:1}100%{transform:translateY(-120px) rotate(360deg);opacity:0}}
+  @keyframes pk-spin{to{transform:rotate(360deg)}}
+  .pk-ptr-track{overscroll-behavior-y:contain;}
   .pk-sheet-bg{position:absolute;inset:0;background:rgba(20,12,4,0.45);animation:pk-fade .2s ease;z-index:40;}
   .pk-sheet{position:absolute;left:0;right:0;bottom:0;background:var(--card);border-radius:26px 26px 0 0;
     box-shadow:var(--shadow-lg);animation:pk-slideup .26s cubic-bezier(.2,.8,.2,1);z-index:41;max-height:88%;display:flex;flex-direction:column;}
@@ -89,8 +91,17 @@ const GRAD = {
 };
 export function catGrad(cat) { return GRAD[cat] || GRAD.chicken; }
 
-export function Thumb({ cat, style, children, slot }) {
-  return <div style={{ background: catGrad(cat), position: 'relative', overflow: 'hidden', ...style }}>{children}</div>;
+export function Thumb({ cat, src, alt, style, children, slot }) {
+  const [failed, setFailed] = React.useState(false);
+  return (
+    <div style={{ background: catGrad(cat), position: 'relative', overflow: 'hidden', ...style }}>
+      {src && !failed && (
+        <img src={src} alt={alt || ''} loading="lazy" onError={() => setFailed(true)}
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+      )}
+      {children}
+    </div>
+  );
 }
 
 const DIET = { veg: ['var(--basil)', 'Veg'], nonveg: ['var(--paprika)', 'Non-veg'], egg: ['var(--egg)', 'Egg'], vegan: ['var(--teal)', 'Vegan'] };
@@ -238,6 +249,70 @@ export function Toast({ toast, onUndo }) {
       <Icon name={toast.icon || 'check'} size={19} stroke="var(--turmeric)" />
       <span style={{ fontSize: 13.5, fontWeight: 600, flex: 1 }}>{toast.msg}</span>
       {toast.undo && <button className="pk-press" onClick={onUndo} style={{ fontSize: 13, fontWeight: 800, color: 'var(--turmeric)' }}>UNDO</button>}
+    </div>
+  );
+}
+
+// Pull-to-refresh scroll container. Drop-in replacement for a `.pk-scroll` div:
+// pass the same style. Drag down at scrollTop 0 past threshold -> onRefresh().
+// onRefresh may return a promise; spinner shows until it resolves (min ~500ms).
+export function PullToRefresh({ onRefresh, style, className, children, onScroll }) {
+  const ref = React.useRef(null);
+  const startY = React.useRef(null);
+  const [pull, setPull] = React.useState(0);
+  const [busy, setBusy] = React.useState(false);
+  const [settling, setSettling] = React.useState(false);
+  const THRESH = 64, MAX = 92, RESIST = 0.5;
+
+  const onStart = (e) => {
+    if (busy) return;
+    startY.current = (ref.current && ref.current.scrollTop <= 0) ? e.touches[0].clientY : null;
+    setSettling(false);
+  };
+  const onMove = (e) => {
+    if (startY.current == null || busy) return;
+    if (ref.current.scrollTop > 0) { startY.current = null; setPull(0); return; }
+    const dy = e.touches[0].clientY - startY.current;
+    if (dy > 0) setPull(Math.min(dy * RESIST, MAX));
+    else { startY.current = null; setPull(0); }
+  };
+  const onEnd = async () => {
+    if (startY.current == null) return;
+    startY.current = null;
+    setSettling(true);
+    if (pull >= THRESH) {
+      setBusy(true); setPull(THRESH);
+      const t0 = Date.now();
+      try { await Promise.resolve(onRefresh && onRefresh()); } catch (_) {}
+      const wait = 500 - (Date.now() - t0);
+      if (wait > 0) await new Promise(r => setTimeout(r, wait));
+      setBusy(false);
+    }
+    setPull(0);
+  };
+
+  const offset = busy ? THRESH : pull;
+  const ready = pull >= THRESH;
+  const trans = settling ? 'transform .26s cubic-bezier(.2,.8,.2,1)' : 'none';
+  return (
+    <div ref={ref} className={'pk-scroll pk-ptr-track' + (className ? ' ' + className : '')} style={style}
+      onScroll={onScroll} onTouchStart={onStart} onTouchMove={onMove} onTouchEnd={onEnd} onTouchCancel={onEnd}>
+      <div style={{ height: 0, position: 'relative', overflow: 'visible' }}>
+        <div style={{ position: 'absolute', left: 0, right: 0, top: -44, display: 'flex', justifyContent: 'center',
+          transform: `translateY(${offset}px)`, transition: trans, opacity: offset > 4 ? 1 : 0, pointerEvents: 'none', zIndex: 5 }}>
+          <div style={{ width: 30, height: 30, borderRadius: '50%', background: 'var(--card)', boxShadow: 'var(--shadow)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+              style={{ animation: busy ? 'pk-spin .7s linear infinite' : 'none', transform: busy ? 'none' : `rotate(${pull / THRESH * 270}deg)` }}>
+              <circle cx="12" cy="12" r="9" stroke="var(--line)" strokeWidth="2.5" />
+              <path d="M12 3a9 9 0 019 9" stroke={ready || busy ? 'var(--saffron-deep)' : 'var(--ink-3)'} strokeWidth="2.5" strokeLinecap="round" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div style={{ transform: `translateY(${offset}px)`, transition: trans }}>
+        {children}
+      </div>
     </div>
   );
 }

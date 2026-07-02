@@ -4,7 +4,7 @@ import { useStore } from '../store/store.jsx';
 import { useNav } from '../nav.jsx';
 import { PK_DATA } from '../data/data.js';
 import { PKLib } from '../lib/lib.js';
-import { Icon, Chip } from '../components/ui.jsx';
+import { Icon, Chip, PullToRefresh } from '../components/ui.jsx';
 import { useAuth } from '../api/auth.jsx';
 import { pushSupported, enablePush, disablePush, sendTestPush } from '../api/push.js';
 
@@ -31,10 +31,37 @@ export function Settings() {
     r.readAsText(f); e.target.value = '';
   };
 
+  // hard reset — wipe every browser-stored byte + drop the cached build, then
+  // reload fresh. Unregisters the service worker, clears Cache Storage (the PWA
+  // precache), nukes IndexedDB + local/session storage (app state, auth token),
+  // and finally reloads bypassing the HTTP cache. Irreversible.
+  const forceRefresh = async () => {
+    try {
+      if ('serviceWorker' in navigator) {
+        const regs = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(regs.map(r => r.unregister()));
+      }
+      if (window.caches && caches.keys) {
+        const keys = await caches.keys();
+        await Promise.all(keys.map(k => caches.delete(k)));
+      }
+      if (window.indexedDB && indexedDB.databases) {
+        const dbs = await indexedDB.databases();
+        await Promise.all(dbs.map(d => d.name ? indexedDB.deleteDatabase(d.name) : null));
+      }
+      try { localStorage.clear(); } catch (_) {}
+      try { sessionStorage.clear(); } catch (_) {}
+    } catch (e) { console.warn('force refresh failed', e); }
+    // cache-busting reload to a clean URL
+    const u = new URL(window.location.href);
+    u.searchParams.set('fresh', Date.now().toString());
+    window.location.replace(u.toString());
+  };
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <div style={{ padding: '4px 16px 8px', flex: '0 0 auto' }}><div className="num" style={{ fontSize: 26 }}>Settings</div></div>
-      <div className="pk-scroll" style={{ flex: 1, padding: '0 16px 16px' }}>
+      <PullToRefresh onRefresh={nav.refresh} style={{ flex: 1, padding: '0 16px 16px' }}>
 
         <AccountCard />
 
@@ -75,7 +102,6 @@ export function Settings() {
         {/* preferences */}
         <Card>
           <Label>Preferences</Label>
-          <SegRow label="Units" value={s.units} opts={[['g', 'Grams'], ['oz', 'Ounces']]} onChange={v => set({ units: v })} />
           <SegRow label="Theme" value={s.theme} opts={[['light', 'Light'], ['dark', 'Dark'], ['system', 'Auto']]} onChange={v => set({ theme: v })} />
           <SegRow label="Diet" value={s.diet} opts={[['all', 'All'], ['veg', 'Veg'], ['vegan', 'Vegan']]} onChange={v => set({ diet: v })} last />
         </Card>
@@ -90,8 +116,15 @@ export function Settings() {
           <input ref={fileRef} type="file" accept="application/json" onChange={importData} style={{ display: 'none' }} />
         </Card>
 
+        {/* force refresh */}
+        <Card>
+          <Label>App</Label>
+          <div style={{ fontSize: 12.5, color: 'var(--ink-3)', fontWeight: 600, marginBottom: 12, lineHeight: 1.45 }}>Pulls the latest app files from the server. Clears the cached build and every byte stored in this browser, then reloads fresh.</div>
+          <DataRow icon="download" label="Force refresh & wipe browser" danger last onClick={() => setConfirm({ msg: 'Fetches fresh files and erases EVERYTHING stored in this browser — your log, favorites, grocery, plan, settings and sign-in. If you are signed in, cloud data re-syncs after sign-in; if not, this cannot be undone.', action: forceRefresh, label: 'Refresh & wipe' })} />
+        </Card>
+
         <div style={{ textAlign: 'center', fontSize: 11.5, fontWeight: 600, color: 'var(--ink-3)', padding: '8px 0' }}>Protein Kitchen · v{PK_DATA.config.version}</div>
-      </div>
+      </PullToRefresh>
 
       {confirm && (
         <React.Fragment>

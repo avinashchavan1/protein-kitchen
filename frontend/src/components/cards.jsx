@@ -13,7 +13,7 @@ export function RecipeCardGrid({ recipe }) {
   return (
     <div className="pk-press" onClick={() => nav.push({ name: 'detail', recipeId: recipe.id })}
       style={{ background: 'var(--card)', borderRadius: 18, overflow: 'hidden', boxShadow: 'var(--shadow)', cursor: 'pointer', display: 'flex', flexDirection: 'column' }}>
-      <Thumb cat={recipe.category} style={{ height: 96 }}>
+      <Thumb cat={recipe.category} src={recipe.image} alt={recipe.title} style={{ height: 96 }}>
         <button className="pk-press" onClick={(e) => { e.stopPropagation(); dispatch({ type: 'FAV_TOGGLE', recipeId: recipe.id }); }}
           aria-label="Favorite" style={{ position: 'absolute', top: 8, right: 8, width: 30, height: 30, borderRadius: 15, background: 'rgba(255,255,255,0.9)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <Icon name="heart" size={16} stroke={fav ? 'var(--paprika)' : 'var(--ink-3)'} fill={fav ? 'var(--paprika)' : 'none'} />
@@ -53,7 +53,7 @@ export function FeedCard({ recipe, eyebrow }) {
         <span style={{ fontSize: 10, fontWeight: 800, color: 'var(--saffron-deep)', textTransform: 'uppercase', letterSpacing: '0.05em', whiteSpace: 'nowrap' }}>{eyebrow || (recipe.category + ' · ' + recipe.difficulty)}</span>
       </div>
       <div style={{ fontSize: 19, fontWeight: 700, lineHeight: 1.12, marginBottom: 9, textWrap: 'pretty' }}>{recipe.title}</div>
-      <Thumb cat={recipe.category} style={{ height: 150, borderRadius: 18 }}>
+      <Thumb cat={recipe.category} src={recipe.image} alt={recipe.title} style={{ height: 150, borderRadius: 18 }}>
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(40,20,5,0.4), transparent 55%)' }} />
         <button className="pk-press" onClick={(e) => { e.stopPropagation(); dispatch({ type: 'FAV_TOGGLE', recipeId: recipe.id }); }}
           aria-label="Favorite" style={{ position: 'absolute', top: 10, right: 10, width: 34, height: 34, borderRadius: 17, background: 'rgba(255,255,255,0.92)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -79,7 +79,7 @@ export function RecipeRowMinimal({ recipe, divider }) {
   return (
     <div className="pk-press" onClick={() => nav.push({ name: 'detail', recipeId: recipe.id })}
       style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '13px 0', borderTop: divider ? '1px solid var(--line)' : 'none', cursor: 'pointer' }}>
-      <Thumb cat={recipe.category} style={{ width: 52, height: 52, borderRadius: 14, flex: '0 0 auto' }} />
+      <Thumb cat={recipe.category} src={recipe.image} alt={recipe.title} style={{ width: 52, height: 52, borderRadius: 14, flex: '0 0 auto' }} />
       <div style={{ flex: 1, minWidth: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
           <DietDot type={recipe.dietType} size={11} />
@@ -116,7 +116,7 @@ export function LogSheet({ recipe, open, onClose, defaultServings = 1 }) {
   return (
     <Sheet open={open} onClose={onClose} title="Add to log">
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
-        <Thumb cat={recipe.category} style={{ width: 52, height: 52, borderRadius: 14 }} />
+        <Thumb cat={recipe.category} src={recipe.image} alt={recipe.title} style={{ width: 52, height: 52, borderRadius: 14 }} />
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 15, fontWeight: 700 }}>{recipe.title}</div>
           <div style={{ fontSize: 12, color: 'var(--ink-3)', fontWeight: 600 }}>{recipe.proteinPerServing}g protein / serving</div>
@@ -131,7 +131,7 @@ export function LogSheet({ recipe, open, onClose, defaultServings = 1 }) {
         {MEAL_TYPES.map(mt => <Chip key={mt} active={meal === mt} onClick={() => setMeal(mt)}>{mt[0].toUpperCase() + mt.slice(1)}</Chip>)}
       </div>
       <div style={{ display: 'flex', gap: 8, background: 'var(--cream-2)', borderRadius: 16, padding: 14, marginBottom: 16 }}>
-        {[['Protein', m.protein + 'g', 'var(--basil)'], ['Calories', m.kcal, 'var(--saffron-deep)'], ['Carbs', m.carbs + 'g', 'var(--teal)'], ['Fat', m.fat + 'g', 'var(--egg)']].map(([l, v, c]) => (
+        {[['Protein', m.protein + 'g', 'var(--basil)'], ['Calories', m.kcal, 'var(--saffron-deep)'], ['Carbs', m.carbs + 'g', 'var(--teal)'], ['Fat', m.fat + 'g', 'var(--egg)'], ['Fibre', m.fibre + 'g', 'var(--basil)']].map(([l, v, c]) => (
           <div key={l} style={{ flex: 1, textAlign: 'center' }}>
             <div className="num" style={{ fontSize: 18, color: c }}>{v}</div>
             <div style={{ fontSize: 9.5, fontWeight: 700, color: 'var(--ink-3)', marginTop: 3 }}>{l}</div>

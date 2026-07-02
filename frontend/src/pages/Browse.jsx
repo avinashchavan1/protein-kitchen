@@ -3,7 +3,7 @@ import React from 'react';
 import { useStore } from '../store/store.jsx';
 import { useNav } from '../nav.jsx';
 import { PK_DATA } from '../data/data.js';
-import { Icon, Chip, Sheet, EmptyState } from '../components/ui.jsx';
+import { Icon, Chip, Sheet, EmptyState, PullToRefresh } from '../components/ui.jsx';
 import { RecipeCardGrid, FeedCard, RecipeRowMinimal, MEAL_TYPES } from '../components/cards.jsx';
 
 const SORTS = { protein: 'Protein ↓', time: 'Fastest', calories: 'Calories ↑', ppc: 'Protein/cal ↓' };
@@ -112,8 +112,9 @@ function SectionTitle({ children, sub }) {
 }
 
 function DiscoverFeed({ topPick, quick, vegHi }) {
+  const nav = useNav();
   return (
-    <div className="pk-scroll" style={{ flex: 1, padding: '4px 16px 16px' }}>
+    <PullToRefresh onRefresh={nav.refresh} style={{ flex: 1, padding: '4px 16px 16px' }}>
       <SectionTitle sub="Chef's pick · most protein">Today's hero</SectionTitle>
       <FeedCard recipe={topPick} eyebrow={topPick.category + ' · ' + topPick.proteinPerServing + 'g protein'} />
       <div style={{ height: 24 }} />
@@ -126,11 +127,12 @@ function DiscoverFeed({ topPick, quick, vegHi }) {
       <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
         {vegHi.slice(0, 3).map((r, i) => <FeedCard key={r.id} recipe={r} />)}
       </div>
-    </div>
+    </PullToRefresh>
   );
 }
 
 function AllRecipes({ q, setQ, layout, setLayout, hp, setHp, cats, setCats, allCats, toggle, activeCount, clearAll, sort, setSortOpen, filtered, setFiltersOpen }) {
+  const nav = useNav();
   return (
     <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0 }}>
       <div style={{ padding: '0 16px', flex: '0 0 auto' }}>
@@ -154,13 +156,13 @@ function AllRecipes({ q, setQ, layout, setLayout, hp, setHp, cats, setCats, allC
           </div>
         </div>
       </div>
-      <div className="pk-scroll" style={{ flex: 1, padding: '0 16px 16px' }}>
+      <PullToRefresh onRefresh={nav.refresh} style={{ flex: 1, padding: '0 16px 16px' }}>
         {filtered.length === 0
           ? <EmptyState icon="search" title="No recipes match" body="Try removing a filter or searching something else." cta="Clear all" onCta={clearAll} />
           : layout === 'grid'
             ? <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>{filtered.map(r => <RecipeCardGrid key={r.id} recipe={r} />)}</div>
             : <div>{filtered.map((r, i) => <RecipeRowMinimal key={r.id} recipe={r} divider={i > 0} />)}</div>}
-      </div>
+      </PullToRefresh>
     </div>
   );
 }

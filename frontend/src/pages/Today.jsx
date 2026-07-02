@@ -4,7 +4,7 @@ import { useStore, dayTotals } from '../store/store.jsx';
 import { useNav } from '../nav.jsx';
 import { PK_DATA } from '../data/data.js';
 import { PKLib } from '../lib/lib.js';
-import { Icon, Thumb, LiquidGauge, StatBox, EmptyState, Sheet, Chip } from '../components/ui.jsx';
+import { Icon, Thumb, LiquidGauge, StatBox, EmptyState, Sheet, Chip, PullToRefresh } from '../components/ui.jsx';
 import { RecipeCardGrid, LogSheet, MEAL_TYPES } from '../components/cards.jsx';
 
 const QUICK_ADDS = [
@@ -54,7 +54,7 @@ export function Today() {
         </div>
       </div>
 
-      <div className="pk-scroll" style={{ flex: 1, padding: '0 16px 16px' }}>
+      <PullToRefresh onRefresh={nav.refresh} style={{ flex: 1, padding: '0 16px 16px' }}>
         {/* liquid gauge */}
         <div style={{ display: 'flex', justifyContent: 'center', padding: '8px 0 6px' }}>
           <LiquidGauge consumed={totals.protein} goal={goal} size={188} />
@@ -106,7 +106,7 @@ export function Today() {
               </div>
             </div>
           ))}
-      </div>
+      </PullToRefresh>
 
       <QuickAddSheet open={quickOpen} onClose={() => setQuickOpen(false)} date={date} />
     </div>
@@ -126,7 +126,7 @@ function LogItem({ e, onDelete }) {
       <button onClick={onDelete} aria-label="Delete" style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: 72, background: 'var(--paprika)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Icon name="trash" size={20} stroke="#fff" /></button>
       <div onPointerDown={onDown} onPointerMove={onMove} onPointerUp={onUp} onPointerLeave={onUp}
         style={{ display: 'flex', alignItems: 'center', gap: 11, background: 'var(--card)', borderRadius: 14, padding: 11, boxShadow: 'var(--shadow)', transform: `translateX(${dragX}px)`, transition: start.current == null ? 'transform .2s' : 'none', touchAction: 'pan-y' }}>
-        <Thumb cat={e.cat || 'tofu'} style={{ width: 40, height: 40, borderRadius: 11, flex: '0 0 auto' }} />
+        <Thumb cat={e.cat || 'tofu'} src={e.recipeId ? `/img/recipes/${e.recipeId}.jpg` : undefined} alt={e.name} style={{ width: 40, height: 40, borderRadius: 11, flex: '0 0 auto' }} />
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ fontSize: 13.5, fontWeight: 600, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{e.name}</div>
           <div style={{ fontSize: 11, color: 'var(--ink-3)', fontWeight: 600 }}>{e.servings ? e.servings + ' serving' + (e.servings > 1 ? 's' : '') + ' · ' : ''}{e.kcal} cal</div>
